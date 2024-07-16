@@ -1,0 +1,170 @@
+User registration:
+●	T1: Họ is required.
+●	T2: Họ cannot contain special characters.
+●	T3: Họ cannot contain a number.
+●	T4: The first character of Họ cannot be a space.
+●	T5: Tên is required.
+●	T6: Tên cannot contain special characters.
+●	T7: Tên cannot contain a number.
+●	T8: The first character of Tên cannot be a space.
+●	T9: Ngày sinh is required.
+●	T10: Số điện thoại is required.
+●	T11: Số điện thoại cannot contain special characters.
+●	T12: Số điện thoại cannot contain characters.
+●	T13: The first character of Số điện thoại cannot be a space.
+●	T14: Địa chỉ is required.
+●	T15: Địa chỉ cannot contain special characters except “\” and “/”.
+●	T16: The first character of Địa chỉ cannot be a space.
+●	T17: Giới tính is required.
+●	T18: Email is required.
+●	T19: The first character and the end of a character cannot contain “.” or “-” or “_”
+●	T20: Mật khẩu is required.
+●	T21: The first character of Mật khẩu cannot be a space
+●	T20: Xác nhận mật khẩu is required.
+●	T21: The first character of Xác nhận mật khẩu cannot be a space.
+●	T22: Xác nhận mật khẩu must be match with mật khẩu.
+User authentication:
+●	T23: Email is required.
+●	T24: Mật khẩu is required.
+●	T25: Login attempts - Maximum 5 failed attempts allowed.
+
+Forgot password:
+●	T26: Email is required.
+Search browser:
+●	T27: The search term must not be blank.
+●	T28: Special characters are not allowed.
+●	T29: Product ID must be valid.
+
+Product detail:
+●	T30: Chất liệu must not be blank.
+●	T31: Số lượng must not be blank.
+●	T32: Size must not be blank.
+
+Shopping cart: 
+●	T33: Items must be added to cart before checkout.
+●	T34: Cart must not be empty during checkout.
+●	T35: Mã giảm giá/quà tặng cannot contain special character.
+●	T36: Mã giảm giá/quà tặng must be valid and not expired.
+
+Check out:
+●	T37: Họ tên is required.
+●	T38: Họ tên cannot contain special character.
+●	T39: The first character of Họ tên cannot be a space.
+●	T40: Họ tên cannot contain number characters.
+●	T41: Điện thoại is required.
+●	T42: Điện thoạ cannot contain special characters.
+●	T43: The first character of Điện thoại cannot be a space.
+●	T44: Điện thoạ cannot contain characters.
+●	T45: Email is required.
+●	T46: The first character and the end of a character cannot contain “.” or “-” or “_”.
+●	T47: Ngày sinh is required.
+●	T48: Chọn Tỉnh/TP is required
+●	T49: Chọn Quận/Huyện is required
+●	T50: Chọn Xã/Phường is required
+●	T51: Địa chỉ is required.
+●	T52: Địa chỉ cannot contain special characters except “\” and “/”.
+●	T53: The first character of Địa chỉ cannot be a space.
+●	T54: Thời gian nhận hàng method must be selected.
+●	T55: Hình thức thanh toán method must be selected.
+●	T56: Mã giảm giá/voucher cannot contain special characters
+●	T57: Mã giảm giá/voucher must be valid and not expired.
+Product Management:
+●	T58: Tỷ lệ áp giá is required.
+●	T59: Số chỉ is required.
+●	T60: Số chỉ cannot contain character.
+●	T61: Số chỉ cannot contain special characters.
+●	T62: Kim cương is required.
+●	T63: Vỏ kim cương is required.
+●	T64: Danh mục is required.
+●	T65: Special is required.
+●	T66: The first character of Imagine URL cannot be a space.
+Diamond Management:
+●	T67: Hình dáng is required.
+●	T68: Hình dáng cannot contain special characters.
+●	T69: Hình dáng cannot contain number.
+●	T70: The first character of Hình dáng cannot be a space.
+●	T71: Size is required.
+●	T72: Size cannot contain special characters.
+●	T73: Size cannot contain characters.
+●	T74: The first character of Size cannot be a space.
+●	T75: Màu sắc is required.
+●	T76: Màu sắc cannot contain special characters.
+●	T77: Màu sắc cannot contain numbers.
+●	T78: The first character of Màu sắc cannot be a space.
+●	T79: Độ tinh khiết is required.
+●	T80: Carat is required.
+●	T81: Carat cannot contain special characters.
+●	T82: Carat cannot contain characters.
+●	T83: The first character of Carat cannot be a space.
+●	T84: Độ cắt is required.
+●	T85: Chứng chỉ is required.
+●	T86: The first character of Chứng chỉ cannot be a space.
+●	T87: Nguồn gốc is required.
+●	T88: Giá is required.
+●	T89: Giá cannot contain special characters.
+●	T90: Giá cannot contain characters.
+●	T91: The first character of Giá cannot be a space.
+●	T92: The first character of Imagine URL cannot be a space.
+●	T93: The first character of Loại cannot be a space.
+Diamond Shell Management:
+●	T94: Kim loại is required.
+●	T95: Kim loại cannot contain special characters.
+●	T96: Kim loại cannot contain numbers.
+●	T97: The first character of Kim loại cannot be a space.
+●	T98: Karat is required.
+●	T99: Nặng is required.
+●	T100: Nặng cannot contain special characters.
+●	T101: Nặng cannot contain characters.
+●	T102: The first character of Nặng cannot be a space.
+●	T103: Số lượng đá phụ is required.
+●	T104: Số lượng đá phụ cannot contain special characters.
+●	T105: Số lượng đá phụ cannot contain characters.
+●	T106: The first character of Số lượng đá phụ cannot be a space.
+●	T107: Loại is required.
+●	T108: Loại cannot contain special characters.
+●	T109: Loại cannot contain numbers.
+●	T110: The first character of Loại cannot be a space.
+Diamond Certificate Management:
+●	T111: Số chứng chỉ is required.
+●	T112: Số chứng chỉ cannot contain special characters except “-”.
+●	T113: The first character of Số chứng chỉ cannot be a space.
+●	T114: fileURL is required.
+●	T115: fileURL cannot contain special characters.
+●	T116: The first character of fileURL cannot be a space.
+Category Management:
+●	T117: Tên danh mục is required.
+●	T118: Tên danh mục cannot contain special characters.
+●	T119: Tên danh mục cannot contain numbers.
+●	T120: The first character of Tên danh mục cannot be a space.
+●	T121: Mô tả is required.
+●	T122: Mô tả cannot contain special characters.
+●	T123: Mô tả cannot contain numbers.
+●	T124: The first character of Mô tả cannot be a space.
+Profile Management:
+●	T125: Profile Update - All fields must be validated.
+●	T126: Password - Password change must meet security criteria.
+Tracking order:
+●	T127: Ngày giao hàng dự kiến must be clearly stated.
+●	T128: Giao hàng bởi must be clearly stated.
+●	T129: Trạng thái is always update.
+Collection:
+●	T130: Collection details must be complete and accurate.
+Knowledge ( Jewelry, Size, Diamond):
+●	T131: Content knowledge details must be complete and accurate.
+Diamond price:
+●	T132: Diamond prices are updated continuously.
+●	T133: Diamond prices are clearly shown by day and month.
+FAQs:
+●	T134: Question and answer must be complete.
+●	T135: Must be updated regularly.
+Manage user:
+●	T136: Data must be up-to-date.
+●	T137: User details must be complete and accurate.
+Manage order:
+●	T138: Order details must be complete and accurate.
+Manage delivery order:
+●	T139: Delivery order details must be complete and accurate.
+●	T139: Tình trạng cannot contain numbers.
+●	T140:Tình trạng cannot contain special characters.
+●	T141:Cập nhật cannot contain numbers.
+●	T142:Cập nhật cannot contain special characters.
