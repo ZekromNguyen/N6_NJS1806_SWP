@@ -1,0 +1,2276 @@
+﻿Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Blocks),Outward issue link (Blocks),Attachment,Attachment,Custom field (Actual end),Custom field (Actual start),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Development),Custom field (Epic Color),Custom field (Epic Link),Epic Link Summary,Custom field (Epic Name),Custom field (Epic Status),Custom field (Impact),Custom field (Issue color),Custom field (Locked forms),Custom field (Open forms),Custom field (Rank),Custom field (Request Type),Custom field (Sentiment),Sprint,Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Total forms),Custom field (Vulnerability),Custom field ([CHART] Date of First Response),Custom field ([CHART] Time in Status),Parent,Parent summary,Status Category,Status Category Changed
+MU137_User details must be complete and accurate.,GB-305,10304,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,16/Jul/24 3:53 PM,16/Jul/24 3:55 PM,16/Jul/24 4:53 PM,16/Jul/24 3:55 PM,,0,"Test step: input account admin into website [http://fivediamond.shop/|http://fivediamond.shop/|smart-link] 
+Test Level: unit
+Expect result: Show the User detail
+Result: show the User detail
+Test result: Pass
+
+!Screenshot 2024-07-16 155008.png|width=1918,height=809,alt=""Screenshot 2024-07-16 155008.png""!",,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,,,,,,,,,,,16/Jul/24 3:55 PM;712020:c457a470-3499-4b73-bbba-376326f96ad8;Screenshot 2024-07-16 155008.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10208,,,,,,,,,GB-255,Manage user,,,,purple,,,0|i001bp:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_118791,10254,Manage user,Done,16/Jul/24 3:55 PM
+MU136:_Data must be up-to-date.,GB-304,10303,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,16/Jul/24 3:50 PM,16/Jul/24 3:53 PM,16/Jul/24 4:53 PM,16/Jul/24 3:53 PM,,0,"Test step: input account admin to [http://fivediamond.shop/admin-nguoi-dung|http://fivediamond.shop/admin-nguoi-dung|smart-link] 
+Test level: Unit
+Expect result: show the icon update
+Result: don’t have icon update function to update
+Test result: fail
+
+!Screenshot 2024-07-16 155008.png|width=1918,height=809,alt=""Screenshot 2024-07-16 155008.png""!",,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,,,,,,,,,,,16/Jul/24 3:53 PM;712020:c457a470-3499-4b73-bbba-376326f96ad8;Screenshot 2024-07-16 155008.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10207,,,,,,,,,GB-255,Manage user,,,,purple,,,0|i001bh:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_153774,10254,Manage user,Done,16/Jul/24 3:53 PM
+MDO142_Cập nhật cannot contain special characters.,GB-303,10302,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,16/Jul/24 3:46 PM,16/Jul/24 3:49 PM,16/Jul/24 4:53 PM,16/Jul/24 3:49 PM,,0,"Test step: click “Tất cả”
+Test level: Unit
+Expect result: show the message “Cập nhật không chứa ký tự đặc biệt”
+Result: Don’t have  the message “Cập nhật không chứa ký tự đặc biệt”
+Test result: Pass",,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,,,,,,,,,,,,,,,,,,,,GB-257,Manage delivery order,,,,purple,,,0|i001b9:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_171012,10256,Manage delivery order,Done,16/Jul/24 3:49 PM
+MDO141_Cập nhật cannot contain numbers.,GB-302,10301,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,16/Jul/24 3:43 PM,16/Jul/24 3:45 PM,16/Jul/24 4:53 PM,16/Jul/24 3:45 PM,,0,"Test step: click “Tất cả”
+Test level : Unit
+Expect result: show the “Cập nhật không chứa số”
+Result: Don’t have show the “Cập nhật không chứa số”
+Test result : fail",,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,,,,,,,,,,,,,,,,,,,,GB-257,Manage delivery order,,,,purple,,,0|i001b1:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_109891,10256,Manage delivery order,Done,16/Jul/24 3:45 PM
+MDO40_Tình trạng cannot contain special characters.,GB-301,10300,Testcase,In Progress,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,16/Jul/24 3:39 PM,16/Jul/24 3:43 PM,16/Jul/24 4:53 PM,,,0,"Test step: click “Tất cả”
+Test level: Unit
+Expect result: show the message “Tình trạng không chứa ký tự đặc biệt”
+Result : Don’t have the message “Tình trạng không chứa ký tự đặc biệt”.
+Test result : skip",,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,,,,,,,,,,,,,,,,,,,,GB-257,Manage delivery order,,,,purple,,,0|i001at:,,,,,,,,,,,,,,,10256,Manage delivery order,In Progress,16/Jul/24 3:42 PM
+DP133_Diamond prices are clearly shown by day and month.,GB-300,10299,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,16/Jul/24 3:37 PM,16/Jul/24 3:56 PM,16/Jul/24 4:53 PM,16/Jul/24 3:56 PM,,0,"*Test Level:* Unit
+
+*Test Steps:*
+
+* Not have shown by day and month
+* Not have condition to test
+
+*Expected Result:* 
+
+* Not have condition to test
+
+*Actual Result:* 
+
+* Not have condition to test
+
+*Testcase Result: Skip*",,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,,,,,,,,,,,,,,,,,,,,GB-253,Diamond price,,,,purple,,,0|i001al:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_1189465,10252,Diamond price,Done,16/Jul/24 3:56 PM
+DP132_Diamond prices are updated manually.,GB-299,10298,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,16/Jul/24 3:35 PM,16/Jul/24 3:56 PM,16/Jul/24 4:53 PM,16/Jul/24 3:56 PM,,0,"*Test Level:* Unit
+
+*Test Steps:*
+
+* Click on “Cập nhật giá” box.
+* Type a new price to this diamond
+* Then click to “Lưu“ button
+
+*Expected Result:* New price will be appear.
+
+*Actual Result:* New price will be appear.
+
+*Testcase Result: Pass*
+
+
+
+!image-20240716-084141.png|width=1091,height=303,alt=""image-20240716-084141.png""!
+
+
+
+!image-20240716-084244.png|width=1468,height=577,alt=""image-20240716-084244.png""!",,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,,,,,,,,,,,16/Jul/24 3:42 PM;712020:22e45797-4683-4de2-8f58-0efd8a8122b0;image-20240716-084141.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10205,16/Jul/24 3:42 PM;712020:22e45797-4683-4de2-8f58-0efd8a8122b0;image-20240716-084244.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10206,,,,,,,,GB-253,Diamond price,,,,purple,,,0|i001ad:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_1267268,10252,Diamond price,Done,16/Jul/24 3:56 PM
+TO129- Trạng thái is always update.,GB-298,10297,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,16/Jul/24 3:35 PM,16/Jul/24 3:56 PM,16/Jul/24 4:53 PM,16/Jul/24 3:56 PM,,0,"Test step: 
++ Click on Tracking Order 
++ Choose Ordered
++ Choose more information in the customer
+Expect result:
+
+When finish any step the system will update the information for customer and manager
+
+Result:
+Show information about order for customer and manager",,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,,,,,,,,,,,16/Jul/24 3:37 PM;712020:6a49ee4d-8db9-499d-9192-cccc22082d31;image_2024-07-16_153700207.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10203,,,,,,,,,GB-250,Tracking order,,,,purple,,,0|i001a5:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_1270030,10249,Tracking order,Done,16/Jul/24 3:56 PM
+MDO139_Tình trạng cannot contain numbers,GB-297,10296,Testcase,In Progress,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,16/Jul/24 3:35 PM,16/Jul/24 3:39 PM,16/Jul/24 4:53 PM,,,0,"Test step: click “Tất cả” 
+Test level: unit
+Expect result: Show the message “Tình Trạng không chứa số”
+Result: Don’t have the message “Trình trạng không chứa số”
+Test result: skip
+
+!image-20240716-083602.png|width=1139,height=654,alt=""image-20240716-083602.png""!",,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,,,,,,,,,,,16/Jul/24 3:39 PM;712020:c457a470-3499-4b73-bbba-376326f96ad8;image-20240716-083602.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10204,,,,,,,,,GB-257,Manage delivery order,,,,purple,,,0|i0019x:,,,,,,,,,,,,,,,10256,Manage delivery order,In Progress,16/Jul/24 3:39 PM
+C01:Collection details must be complete and accurate.,GB-296,10295,Testcase,In Progress,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Truong Dinh An (K17 HCM),712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6,Truong Dinh An (K17 HCM),712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6,16/Jul/24 3:34 PM,16/Jul/24 3:43 PM,16/Jul/24 4:53 PM,,,0,"Test Level: Unit
+
+Test Steps: Enter Full Information
+
+· Click Test
+
+Expected Result: Enter Full Information
+
+Actual Result: Enter Message Requiring Full Information
+
+Test Result: skip",,Truong Dinh An (K17 HCM),712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6,,,,,,,,,,,,,,,,,,,,GB-251,Collection,,,,purple,,,0|i0019p:,,,,,,,,,,,,,,,10250,Collection,In Progress,16/Jul/24 3:43 PM
+TO128-Giao hàng bởi must be clearly stated.,GB-295,10294,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,16/Jul/24 3:33 PM,16/Jul/24 3:56 PM,16/Jul/24 4:53 PM,16/Jul/24 3:56 PM,,0,"Test step: 
++ Click on Tracking Order 
++ Choose Ordered
++ Choose more information in the customer
+Expect result:
+
+Show this order is delivered by
+
+Result:
+Show this order is delivered by",,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,,,,,,,,,,,16/Jul/24 3:34 PM;712020:6a49ee4d-8db9-499d-9192-cccc22082d31;image_2024-07-16_153453469.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10202,,,,,,,,,GB-250,Tracking order,,,,purple,,,0|i0019h:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_1381836,10249,Tracking order,Done,16/Jul/24 3:56 PM
+MDO139_Delivery order details must be complete and accurate,GB-294,10293,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,16/Jul/24 3:30 PM,16/Jul/24 3:39 PM,16/Jul/24 4:53 PM,16/Jul/24 3:39 PM,,0,"Test step: click “đang vận chuyển” then click “Xem chi tiết”
+Test level: unit
+Expect result: show the information
+Result: show the information
+Test result: Pass
+
+!image-20240716-083137.png|width=1704,height=822,alt=""image-20240716-083137.png""!",,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,,,,,,,,,,,16/Jul/24 3:34 PM;712020:c457a470-3499-4b73-bbba-376326f96ad8;image-20240716-083137.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10201,,,,,,,,,GB-257,Manage delivery order,,,,purple,,,0|i00199:,,,Sprint 2,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_554851,10256,Manage delivery order,Done,16/Jul/24 3:39 PM
+TO127-Ngày giao hàng dự kiến must be clearly stated.,GB-293,10292,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,16/Jul/24 3:26 PM,16/Jul/24 3:56 PM,16/Jul/24 4:53 PM,16/Jul/24 3:56 PM,,0,"Test step: 
++ Click on Tracking Order 
++ Choose Ordered
++ Choose more information in the customer
+Expect result:
+
+Show the date start deliver
+
+Result:
+Show the date start deliver
+
+
+                ",,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,,,,,,,,,,,16/Jul/24 3:31 PM;712020:6a49ee4d-8db9-499d-9192-cccc22082d31;image_2024-07-16_153146173.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10200,,,,,,,,,GB-250,Tracking order,,,,purple,,,0|i00191:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_1800293,10249,Tracking order,Done,16/Jul/24 3:56 PM
+"DSM13_verifies that the ""Số lượng đá phụ"" (Number of Auxiliary Stones) field does not accept a space as the first character",GB-290,10289,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,16/Jul/24 2:31 PM,16/Jul/24 2:34 PM,16/Jul/24 2:34 PM,,,0,"Test level: Unit Test
+
+Test Steps:
+
+# Navigate to the form/page that contains the ""Số lượng đá phụ"" field.
+# Enter a value in the ""Số lượng đá phụ"" field that begins with a space (e.g., "" 10"").
+# Submit the form.
+
+Expected Results:
+
+# The form should not be submitted successfully.
+# An error message should be displayed indicating that the ""Số lượng đá phụ"" field is required.
+
+Actual Results:
+
+# Can’t enter special characters into the ""Số lượng đá phụ"" field
+
+Test Results: Fail
+
+
+
+!Screenshot 2024-07-16 at 14.28.24.png|width=408,height=59,alt=""Screenshot 2024-07-16 at 14.28.24.png""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,16/Jul/24 2:34 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;Screenshot 2024-07-16 at 14.28.24.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10198,,,,,,,,,GB-247,Diamond Shell Management,,,,purple,,,0|i0018t:,,,,,,,,,,,,,,,10246,Diamond Shell Management,To Do,16/Jul/24 2:31 PM
+"DSM12_verifies that the ""Số lượng đá phụ"" (Number of Auxiliary Stones) field does not accept alphabetic characters",GB-289,10288,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,16/Jul/24 2:29 PM,16/Jul/24 2:30 PM,16/Jul/24 2:29 PM,,,0,"Test level: Unit Test
+
+Test Steps:
+
+# Navigate to the form/page that contains the ""Số lượng đá phụ"" field.
+# Enter a value in the ""Số lượng đá phụ"" field that includes alphabetic characters (e.g., ""10stones"").
+# Submit the form.
+
+Expected Results:
+
+# The form should not be submitted successfully.
+# An error message should be displayed indicating that the ""Số lượng đá phụ"" field is required.
+
+Actual Results:
+
+# Can’t enter special characters into the ""Số lượng đá phụ"" field
+
+Test Results: Fail
+
+
+
+!Screenshot 2024-07-16 at 14.28.24.png|width=408,height=59,alt=""Screenshot 2024-07-16 at 14.28.24.png""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,16/Jul/24 2:30 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;Screenshot 2024-07-16 at 14.28.24.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10197,,,,,,,,,GB-247,Diamond Shell Management,,,,purple,,,0|i0018l:,,,,,,,,,,,,,,,10246,Diamond Shell Management,To Do,16/Jul/24 2:29 PM
+"DSM11_verifies that the ""Số lượng đá phụ"" (Number of Auxiliary Stones) field does not accept special characters",GB-288,10287,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,16/Jul/24 2:26 PM,16/Jul/24 2:28 PM,16/Jul/24 2:29 PM,,,0,"Test level: Unit Test
+
+Test Steps:
+
+# Navigate to the form/page that contains the ""Số lượng đá phụ"" field.
+# Enter a value in the ""Số lượng đá phụ"" field that includes special characters (e.g., ""@#$%^&*"").
+# Submit the form.
+
+Expected Results:
+
+# The form should not be submitted successfully.
+# An error message should be displayed indicating that the ""Số lượng đá phụ"" field is required.
+
+Actual Results:
+
+# Can’t enter special characters into the ""Số lượng đá phụ"" field
+
+Test Results: Fail
+
+
+
+!Screenshot 2024-07-16 at 14.28.24.png|width=408,height=59,alt=""Screenshot 2024-07-16 at 14.28.24.png""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,16/Jul/24 2:28 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;Screenshot 2024-07-16 at 14.28.24.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10196,,,,,,,,,GB-247,Diamond Shell Management,,,,purple,,,0|i0018d:,,,,,,,,,,,,,,,10246,Diamond Shell Management,To Do,16/Jul/24 2:26 PM
+"DSM10_verifies that the ""Số lượng đá phụ"" (Number of Auxiliary Stones) field is required",GB-287,10286,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,16/Jul/24 2:23 PM,16/Jul/24 2:25 PM,16/Jul/24 2:26 PM,,,0,"Test level: Unit Test
+
+Test Steps:
+
+# Navigate to the form/page that contains the ""Số lượng đá phụ"" field.
+# Leave the ""Số lượng đá phụ"" field empty.
+# Submit the form.
+
+Expected Results:
+
+# The form should not be submitted successfully.
+# An error message should be displayed indicating that the ""Số lượng đá phụ"" field is required.
+
+Actual Results:
+
+# The form should not be submitted successfully.
+# An error message should be displayed indicating that the ""Số lượng đá phụ"" field is required.
+
+Test Results: Pass
+
+
+
+
+
+!Screenshot 2024-07-16 at 13.46.43.png|width=1680,height=1050,alt=""Screenshot 2024-07-16 at 13.46.43.png""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,16/Jul/24 2:25 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;Screenshot 2024-07-16 at 13.46.43.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10195,,,,,,,,,GB-247,Diamond Shell Management,,,,purple,,,0|i00185:,,,,,,,,,,,,,,,10246,Diamond Shell Management,To Do,16/Jul/24 2:23 PM
+"DSM9_verifies that the ""Nặng"" (Weight) field does not accept a space as the first character",GB-286,10285,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,16/Jul/24 2:20 PM,16/Jul/24 2:21 PM,16/Jul/24 2:23 PM,,,0,"Test level: Unit Test
+
+Test Steps:
+
+# Navigate to the form/page that contains the ""Nặng"" field.
+# Enter a value in the ""Nặng"" field that begins with a space (e.g., "" 45"").
+# Submit the form.
+
+Expected Results:
+
+# The form should not be submitted successfully.
+# An error message should be displayed indicating that the first character of the ""Nặng"" field cannot be a space.
+
+Actual Results:
+
+# Can’t not enter  alphabetic characters into the ""Nặng"" field
+
+Test Results: Fail
+
+
+
+!Screenshot 2024-07-16 at 14.11.55.png|width=422,height=63,alt=""Screenshot 2024-07-16 at 14.11.55.png""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,16/Jul/24 2:21 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;Screenshot 2024-07-16 at 14.11.55.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10194,,,,,,,,,GB-247,Diamond Shell Management,,,,purple,,,0|i0017x:,,,,,,,,,,,,,,,10246,Diamond Shell Management,To Do,16/Jul/24 2:20 PM
+"DSM8_verifies that the ""Nặng"" (Weight) field does not accept special characters",GB-285,10284,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,16/Jul/24 2:16 PM,16/Jul/24 2:19 PM,16/Jul/24 2:20 PM,,,0,"Test level: Unit Test
+
+Test Steps:
+
+# Navigate to the form/page that contains the ""Nặng"" field.
+# Enter a value in the ""Nặng"" field that includes alphabetic characters (e.g., ""12kg"").
+# Submit the form.
+
+Expected Results:
+
+# The form should not be submitted successfully.
+# An error message should be displayed indicating that the ""Nặng"" field cannot contain alphabetic characters.
+
+Actual Results:
+
+# Can’t not enter  alphabetic characters into the ""Nặng"" field
+
+Test Results: Fail
+
+
+
+!Screenshot 2024-07-16 at 14.11.55.png|width=422,height=63,alt=""Screenshot 2024-07-16 at 14.11.55.png""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,16/Jul/24 2:19 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;Screenshot 2024-07-16 at 14.11.55.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10193,,,,,,,,,GB-247,Diamond Shell Management,,,,purple,,,0|i0017p:,,,,,,,,,,,,,,,10246,Diamond Shell Management,To Do,16/Jul/24 2:16 PM
+"DSM7_verifies that the ""Nặng"" (Weight) field does not accept special characters",GB-284,10283,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,16/Jul/24 2:08 PM,16/Jul/24 2:14 PM,16/Jul/24 2:14 PM,,,0,"Test level: Unit Test
+
+Test Steps:
+
+# Navigate to the form/page that contains the ""Nặng"" field.
+# Enter a value in the ""Nặng"" field that includes special characters (e.g., ""@#$%^&*"").
+# Submit the form.
+
+Expected Results:
+
+# The form should not be submitted successfully.
+# An error message should be displayed indicating that the ""Nặng"" field cannot contain special characters.
+
+Actual Results:
+
+# Can’t enter special characters into the ""Nặng"" field
+
+Test Results: Fail
+
+
+
+!Screenshot 2024-07-16 at 14.11.55.png|width=422,height=63,alt=""Screenshot 2024-07-16 at 14.11.55.png""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,16/Jul/24 2:12 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;Screenshot 2024-07-16 at 14.11.55.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10192,,,,,,,,,GB-247,Diamond Shell Management,,,,purple,,,0|i0017h:,,,,,,,,,,,,,,,10246,Diamond Shell Management,To Do,16/Jul/24 2:08 PM
+"DSM6_verifies that the ""Nặng"" (Weight) field is required",GB-283,10282,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,16/Jul/24 2:06 PM,16/Jul/24 2:08 PM,16/Jul/24 2:14 PM,,,0,"Test level: Unit Test
+
+Test Steps:
+
+# Navigate to the form/page that contains the ""Nặng"" field.
+# Leave the ""Nặng"" field empty.
+# Submit the form.
+
+Expected Results:
+
+# The form should not be submitted successfully.
+# An error message should be displayed indicating that the ""Nặng"" field is required.
+
+Actual Results:
+
+# The form should not be submitted successfully.
+# An error message should be displayed indicating that the ""Nặng"" field is required.
+
+Test Results: Pass
+
+
+
+!Screenshot 2024-07-16 at 13.46.43.png|width=1680,height=1050,alt=""Screenshot 2024-07-16 at 13.46.43.png""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,16/Jul/24 2:08 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;Screenshot 2024-07-16 at 13.46.43.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10191,,,,,,,,,GB-247,Diamond Shell Management,,,,purple,,,0|i00179:,,,,,,,,,,,,,,,10246,Diamond Shell Management,To Do,16/Jul/24 2:06 PM
+"DSM5_verifies that the ""Karat"" field is required",GB-282,10281,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,16/Jul/24 2:03 PM,16/Jul/24 2:05 PM,16/Jul/24 2:04 PM,,,0,"Test level: Unit Test
+
+Test Steps:
+
+# Navigate to the form/page that contains the ""Karat"" field.
+# Leave the ""Karat"" field empty.
+# Submit the form.
+
+Expected Results:
+
+# The form should not be submitted successfully.
+# An error message should be displayed indicating that the ""Karat"" field is required.
+
+Actual Results:
+
+# The form should not be submitted successfully.
+# An error message should be displayed indicating that the ""Karat"" field is required.
+
+Test Results: Pass
+
+
+
+!Screenshot 2024-07-16 at 13.46.43.png|width=1680,height=1050,alt=""Screenshot 2024-07-16 at 13.46.43.png""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,16/Jul/24 2:05 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;Screenshot 2024-07-16 at 13.46.43.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10190,,,,,,,,,GB-247,Diamond Shell Management,,,,purple,,,0|i00171:,,,,,,,,,,,,,,,10246,Diamond Shell Management,To Do,16/Jul/24 2:03 PM
+MO138: Order details must be complete and accurate,GB-281,10280,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,16/Jul/24 2:01 PM,16/Jul/24 3:28 PM,16/Jul/24 4:53 PM,16/Jul/24 2:04 PM,,0,"Test step: click the website call : “xem chi tiết”
+Test level: Unit
+Expect result : show all order
+Result: show all order
+Test result: pass
+
+!image-20240716-070239.png|width=1694,height=862,alt=""image-20240716-070239.png""!",,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,,,,,,,,,,,16/Jul/24 2:04 PM;712020:c457a470-3499-4b73-bbba-376326f96ad8;image-20240716-070239.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10189,,,,,,,,,GB-256,Manage order,,,,purple,,,0|i0016t:,,,Sprint 2,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_219757,10255,Manage order,Done,16/Jul/24 2:04 PM
+"DSM4_verifies that the ""Kim loại"" (Metal) field does not accept a space as the first character",GB-280,10279,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,16/Jul/24 2:01 PM,16/Jul/24 2:03 PM,16/Jul/24 2:01 PM,,,0,"Test level: Unit Test 
+
+Test Steps:
+
+# Navigate to the form/page that contains the ""Kim loại"" field.
+# Enter a value in the ""Kim loại"" field that begins with a space (e.g., "" Gold"").
+# Submit the form.
+
+Expected Results:
+
+# The form should not be submitted successfully.
+# An error message should be displayed indicating that the first character of the ""Kim loại"" field cannot be a space.
+
+Actual Results:
+
+# Can’t enter the first character of the ""Kim loại"" field cannot be a space.
+
+Test Results: Fail
+
+
+
+!Screenshot 2024-07-16 at 13.56.50.png|width=396,height=75,alt=""Screenshot 2024-07-16 at 13.56.50.png""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,16/Jul/24 2:03 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;Screenshot 2024-07-16 at 13.56.50.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10188,,,,,,,,,GB-247,Diamond Shell Management,,,,purple,,,0|i0016l:,,,,,,,,,,,,,,,10246,Diamond Shell Management,To Do,16/Jul/24 2:01 PM
+"DSM3_verifies that the ""Kim loại"" (Metal) field does not accept numerical characters",GB-279,10278,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,16/Jul/24 1:57 PM,16/Jul/24 2:00 PM,16/Jul/24 1:58 PM,,,0,"Test level: Unit Test
+
+Test Steps:
+
+# Navigate to the form/page that contains the ""Kim loại"" field.
+# Enter a value in the ""Kim loại"" field that includes numbers (e.g., ""Gold123"").
+# Submit the form.
+
+Expected Results:
+
+# The form should not be submitted successfully.
+# An error message should be displayed indicating that the ""Kim loại"" field cannot contain numbers.
+
+Actual Results:
+
+# Can’t Enter numbers in ""Kim loại"" field
+
+Test Results: Fail
+
+
+
+!Screenshot 2024-07-16 at 13.56.50.png|width=396,height=75,alt=""Screenshot 2024-07-16 at 13.56.50.png""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,16/Jul/24 2:00 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;Screenshot 2024-07-16 at 13.56.50.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10187,,,,,,,,,GB-247,Diamond Shell Management,,,,purple,,,0|i0016d:,,,,,,,,,,,,,,,10246,Diamond Shell Management,To Do,16/Jul/24 1:57 PM
+"DSM2_verifies that the ""Kim loại"" (Metal) field does not accept special characters",GB-278,10277,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,16/Jul/24 1:53 PM,16/Jul/24 1:57 PM,16/Jul/24 1:53 PM,,,0,"Test level: Unit Test
+
+Test Step:
+
+# Navigate to the form/page that contains the ""Kim loại"" field.
+# Enter a value in the ""Kim loại"" field that includes special characters (e.g., ""@#$%^&*"").
+# Submit the form.
+
+Expected Results:
+
+# The form should not be submitted successfully.
+# An error message should be displayed indicating that the ""Kim loại"" field cannot contain special characters.
+
+Actual Results:
+
+# Can’t not enter special characters.
+
+Test Result: Fail
+
+
+
+!Screenshot 2024-07-16 at 13.56.50.png|width=396,height=75,alt=""Screenshot 2024-07-16 at 13.56.50.png""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,16/Jul/24 1:57 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;Screenshot 2024-07-16 at 13.56.50.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10186,,,,,,,,,GB-247,Diamond Shell Management,,,,purple,,,0|i00165:,,,,,,,,,,,,,,,10246,Diamond Shell Management,To Do,16/Jul/24 1:53 PM
+MDO139_Delivery order details must be complete and accurate.,GB-277,10276,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,16/Jul/24 1:52 PM,16/Jul/24 1:56 PM,16/Jul/24 4:53 PM,16/Jul/24 1:56 PM,,0,"Test case: click the website “ Quản lý đơn hàng” then click “Đang vận chuyển” after that click “xem chi tiết”
+Test level : Unit
+Expect result: show all product
+Result: show all product
+Test result: Pass
+
+!image-20240716-065320.png|width=1697,height=813,alt=""image-20240716-065320.png""!",,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,,,,,,,,,,,16/Jul/24 1:56 PM;712020:c457a470-3499-4b73-bbba-376326f96ad8;image-20240716-065320.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10185,,,,,,,,,,,,,,,,,0|i0015x:,,,Sprint 2,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_235162,,,Done,16/Jul/24 1:56 PM
+MO138_ Order details must be complete and accurate.,GB-276,10275,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,16/Jul/24 1:45 PM,16/Jul/24 1:51 PM,16/Jul/24 4:53 PM,16/Jul/24 1:51 PM,,0,"Test case: click a website Manage Order “Quản lý đơn hàng
+Test Level: Unit
+Expect result : show all products.
+Result: show all products.
+Test result: Pass
+
+!image-20240716-064817.png|width=1346,height=807,alt=""image-20240716-064817.png""!",,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,,,,,,,,,,,16/Jul/24 1:51 PM;712020:c457a470-3499-4b73-bbba-376326f96ad8;image-20240716-064817.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10183,,,,,,,,,,,,,,,,,0|i0015p:,,,Sprint 2,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_354083,,,Done,16/Jul/24 1:51 PM
+"DSM1_verifies that the ""Kim loại"" (Metal) field is required ",GB-275,10274,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,16/Jul/24 1:40 PM,16/Jul/24 1:51 PM,16/Jul/24 1:40 PM,,,0,"Test level: Unit Test
+
+Test Step:
+
+# Navigate to the form/page that contains the ""Kim loại"" field.
+# Leave the ""Kim loại"" field empty.
+# Submit the form.
+
+Expected Results:
+
+# The form should not be submitted successfully.
+# An error message should be displayed indicating that the ""Kim loại"" field is required.
+
+Actual Results:
+
+# The form should not be submitted successfully.
+# An error message should be displayed indicating that the ""Kim loại"" field is required.
+
+Test Results: Pass
+
+
+!Screenshot 2024-07-16 at 13.46.43.png|width=1680,height=1050,alt=""Screenshot 2024-07-16 at 13.46.43.png""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,16/Jul/24 1:51 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;Screenshot 2024-07-16 at 13.46.43.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10184,,,,,,,,,GB-247,Diamond Shell Management,,,,purple,,,0|i0015h:,,,,,,,,,,,,,,,10246,Diamond Shell Management,To Do,16/Jul/24 1:40 PM
+"CM1_verifies that the ""Tên danh mục"" (Category Name) field is required",GB-274,10273,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,16/Jul/24 10:53 AM,16/Jul/24 10:57 AM,16/Jul/24 1:00 PM,,,0,"Level Test: Unit Test
+
+Test steps:
+
+# Navigate to the form/page that contains the ""Tên danh mục"" field.
+# Leave the ""Tên danh mục"" field empty.
+# Submit the form.
+
+Expected Results:
+
+# The form should not be submitted successfully.
+# An error message should be displayed indicating that the ""Tên danh mục"" field is required.
+
+Actual Results:
+
+# The form be submitted successfully.
+# An error message “Nhập Tên Danh Mục“ is show
+
+Test Result: Pass
+
+
+
+!Screenshot 2024-07-16 at 10.57.08.png|width=390,height=70,alt=""Screenshot 2024-07-16 at 10.57.08.png""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,16/Jul/24 10:57 AM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;Screenshot 2024-07-16 at 10.57.08.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10178,,,,,,,,,GB-248,Category Management,,,,purple,,,0|i00159:,,,,,,,,,,,,,,,10247,Category Management,To Do,16/Jul/24 10:53 AM
+CM08: The first character of Tên danh mục cannot be a space.,GB-273,10272,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,16/Jul/24 9:06 AM,16/Jul/24 1:17 PM,16/Jul/24 4:53 PM,,,0,"Test level: Unit
+Check steps: *enter first space
+
+·        click (Thêm danh mục )
+Expected result: receive message asking not to enter first space
+Actual result: can enter spaces
+Testcase result:fail
+
+
+
+!Ảnh màn hình 2024-07-16 lúc 13.16.44-20240716-061701.png|width=768,height=301,alt=""Ảnh màn hình 2024-07-16 lúc 13.16.44-20240716-061701.png""!",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,16/Jul/24 1:17 PM;712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6;Ảnh màn hình 2024-07-16 lúc 13.16.44-20240716-061701.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10182,,,,,,,,,GB-262,Category Management,,,,purple,,,0|i00151:,,,,,,,,,,,,,,,10261,Category Management,To Do,16/Jul/24 9:06 AM
+CM07: Tên danh mục cannot contain numbers.,GB-272,10271,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,16/Jul/24 9:06 AM,16/Jul/24 1:15 PM,16/Jul/24 4:53 PM,,,0,"Test level: Unit
+Check steps: *enternumbers.
+
+·        click (Thêm danh mục)
+Expected result: receive message asking not to enter numbers.
+Actual result: can enter numbers.
+Testcase result: fail
+
+
+
+!Ảnh màn hình 2024-07-16 lúc 13.15.33-20240716-061546.png|width=638,height=302,alt=""Ảnh màn hình 2024-07-16 lúc 13.15.33-20240716-061546.png""!",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,16/Jul/24 1:15 PM;712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6;Ảnh màn hình 2024-07-16 lúc 13.15.33-20240716-061546.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10181,,,,,,,,,GB-262,Category Management,,,,purple,,,0|i0014t:,,,,,,,,,,,,,,,10261,Category Management,To Do,16/Jul/24 9:06 AM
+CM06: Tên danh mục cannot contain special characters.,GB-271,10270,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,16/Jul/24 9:06 AM,16/Jul/24 1:15 PM,16/Jul/24 4:53 PM,,,0,"Test level: Unit
+Check steps: *enter special characters.
+
+·        click (Thêm danh mục)
+Expected result: receive message asking not to enter special characters.
+Actual result: can enter special characters.
+Testcase result: fail
+
+
+
+!Ảnh màn hình 2024-07-16 lúc 13.14.18-20240716-061437.png|width=767,height=332,alt=""Ảnh màn hình 2024-07-16 lúc 13.14.18-20240716-061437.png""!",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,16/Jul/24 1:15 PM;712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6;Ảnh màn hình 2024-07-16 lúc 13.14.18-20240716-061437.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10180,,,,,,,,,GB-262,Category Management,,,,purple,,,0|i0014l:,,,,,,,,,,,,,,,10261,Category Management,To Do,16/Jul/24 9:06 AM
+CM05: Tên danh mục is required.,GB-270,10269,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,16/Jul/24 9:05 AM,16/Jul/24 1:17 PM,16/Jul/24 4:53 PM,16/Jul/24 1:17 PM,,0,"Test Level: Unit
+
+Test Steps: * Do not enter category
+
+· Click (Add Category)
+
+Expected Result: Enter Input Category Description Request
+
+Actual Result: Enter Input Category Request Message
+
+Test Result: Pass
+
+
+
+!Ảnh màn hình 2024-07-16 lúc 13.10.15-20240716-061036.png|width=729,height=323,alt=""Ảnh màn hình 2024-07-16 lúc 13.10.15-20240716-061036.png""!",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,16/Jul/24 1:12 PM;712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6;Ảnh màn hình 2024-07-16 lúc 13.10.15-20240716-061036.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10179,,,,,,,,,GB-262,Category Management,,,,purple,,,0|i0014d:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_15125887,10261,Category Management,Done,16/Jul/24 1:17 PM
+PM02: Password - Password change must meet security criteria.,GB-269,10268,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,16/Jul/24 9:05 AM,16/Jul/24 9:05 AM,16/Jul/24 4:53 PM,,,0,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,,GB-267,Profile Management,,,,purple,,,0|i00145:,,,,,,,,,,,,,,,10266,Profile Management,To Do,16/Jul/24 9:05 AM
+PM01: Profile Update - All fields must be validated.,GB-268,10267,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,16/Jul/24 9:04 AM,16/Jul/24 9:04 AM,16/Jul/24 4:53 PM,,,0,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,,GB-267,Profile Management,,,,purple,,,0|i0013x:,,,,,,,,,,,,,,,10266,Profile Management,To Do,16/Jul/24 9:04 AM
+Profile Management,GB-267,10266,Epic,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,16/Jul/24 9:04 AM,16/Jul/24 9:05 AM,16/Jul/24 4:53 PM,,,0,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,ghx-label-7,,,Profile Management,To Do,,purple,,,0|i0013p:,,,,,,,,,,,,,,,,,To Do,16/Jul/24 9:04 AM
+CM04: The first character of Mô tả cannot be a space.,GB-266,10265,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,16/Jul/24 9:04 AM,16/Jul/24 9:16 AM,16/Jul/24 4:53 PM,,,0,"Test level: Unit
+Check steps: *enter first space
+
+·        click (Thêm danh mục )
+Expected result: receive message asking not to enter first space
+Actual result: can enter spaces
+Testcase result:fail",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,16/Jul/24 9:15 AM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;Screenshot 2024-07-16 091514.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10177,,,,,,,,,GB-262,Category Management,,,,purple,,,0|i0013h:,,,,,,,,,,,,,,,10261,Category Management,To Do,16/Jul/24 9:04 AM
+CM03: Mô tả cannot contain numbers.,GB-265,10264,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,16/Jul/24 9:03 AM,16/Jul/24 9:14 AM,16/Jul/24 4:53 PM,,,0,"Test level: Unit
+Check steps: *enternumbers.
+
+·        click (Thêm danh mục)
+Expected result: receive message asking not to enter numbers.
+Actual result: can enter numbers.
+Testcase result: fail",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,16/Jul/24 9:13 AM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;Screenshot 2024-07-16 091320.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10176,,,,,,,,,GB-262,Category Management,,,,purple,,,0|i00139:,,,,,,,,,,,,,,,10261,Category Management,To Do,16/Jul/24 9:03 AM
+CM02: Mô tả cannot contain special characters.,GB-264,10263,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,16/Jul/24 9:03 AM,16/Jul/24 9:12 AM,16/Jul/24 4:53 PM,,,0,"Test level: Unit
+Check steps: *enter special characters.
+
+·        click (Thêm danh mục)
+Expected result: receive message asking not to enter special characters.
+Actual result: can enter special characters.
+Testcase result: fail",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,16/Jul/24 9:12 AM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;Screenshot 2024-07-16 091108.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10175,,,,,,,,,GB-262,Category Management,,,,purple,,,0|i00131:,,,,,,,,,,,,,,,10261,Category Management,To Do,16/Jul/24 9:03 AM
+CM01: Mô tả is required,GB-263,10262,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,16/Jul/24 9:03 AM,16/Jul/24 9:12 AM,16/Jul/24 4:53 PM,16/Jul/24 9:12 AM,,0,"*Test Level:* Unit
+
+*Test Steps:* * Do not enter mô tả
+
+·        click (Thêm danh mục)
+
+*Expected Result:* import        requiring mô tả input
+
+*Actual Result:* import message requiring mô tả input
+
+*Testcase Result:* pass
+
+ 
+
+ ",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,16/Jul/24 9:09 AM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;Screenshot 2024-07-16 090758.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10174,,,,,,,,,GB-262,Category Management,,,,purple,,,0|i0012t:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_564376,10261,Category Management,Done,16/Jul/24 9:12 AM
+Category Management,GB-262,10261,Epic,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,16/Jul/24 9:02 AM,16/Jul/24 9:06 AM,16/Jul/24 4:53 PM,,,0,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,ghx-label-7,,,Category Management:,To Do,,purple,,,0|i0012l:,,,,,,,,,,,,,,,,,To Do,16/Jul/24 9:02 AM
+KL131_ Content knowledge details must be complete and accurate,GB-260,10259,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,16/Jul/24 4:45 AM,16/Jul/24 5:01 AM,16/Jul/24 4:53 PM,,,0,"*Test Level:* Unit
+
+*Test Steps:* 
+
+* Click on “Sản phẩm về kim cương” box.
+* click product to show detail
+
+*Expected Result:* “thông tin sản phẩm“ will appear.
+
+*Actual Result:* “thông tin sản phẩm“ will appear.
+
+*Testcase Result:*Pass",,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,,,,,,,,,,16/Jul/24 4:48 AM;712020:3bc6ce36-b821-473c-8ed4-53b643d51207;Screenshot 2024-07-16 044859.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10171,,,,,,,,,GB-252,"Knowledge ( Jewelry, Size, Diamond)",,,,,,,0|i00125:,,,Sprint 2,,,,,,,,,,,,10251,"Knowledge ( Jewelry, Size, Diamond)",To Do,16/Jul/24 5:01 AM
+FAQs135_Must be updated regularly.,GB-259,10258,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,16/Jul/24 4:32 AM,16/Jul/24 5:00 AM,16/Jul/24 4:53 PM,,,0,"*Test Level:* Unit
+
+*Test Steps:* 
+
+* Click on the “Câu hỏi thường gặp” box.
+
+*Expected Result:* “Câu hỏi thường gặp“ will appear and updated regularly.
+
+*Actual Result:* “Câu hỏi thường gặp“ will appear and updated regularly.
+
+*Testcase Result:*Pass",,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,,,,,,,,,,16/Jul/24 4:36 AM;712020:3bc6ce36-b821-473c-8ed4-53b643d51207;Screenshot 2024-07-16 043653.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10170,,,,,,,,,GB-254,FAQs,,,,,,,0|i0011x:,,,Sprint 2,,,,,,,,,,,,10253,FAQs,To Do,16/Jul/24 5:00 AM
+FAQs134_Question and answer must be complete,GB-258,10257,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,16/Jul/24 4:31 AM,16/Jul/24 5:00 AM,16/Jul/24 4:53 PM,,,0,"*Test Level:* Unit
+
+*Test Steps:* 
+
+* Click on the “Câu hỏi thường gặp” box.
+
+*Expected Result:* “Câu hỏi thường gặp“ will appear and complete
+
+*Actual Result:* “Câu hỏi thường gặp“ will appear and complete.
+
+*Testcase Result:*Pass",,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,,,,,,,,,,16/Jul/24 4:34 AM;712020:3bc6ce36-b821-473c-8ed4-53b643d51207;Screenshot 2024-07-16 043458.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10169,,,,,,,,,GB-254,FAQs,,,,,,,0|i0011p:,,,Sprint 2,,,,,,,,,,,,10253,FAQs,To Do,16/Jul/24 5:00 AM
+Manage delivery order,GB-257,10256,Epic,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,12/Jul/24 3:35 PM,16/Jul/24 3:46 PM,16/Jul/24 3:05 PM,,,0,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,,,,,,,,,,,,,,,,,,ghx-label-7,,,Manage delivery order,To Do,,purple,,,0|i0011h:,,,Sprint 2,,,,,,,,,,,,,,To Do,16/Jul/24 1:57 PM
+Manage order,GB-256,10255,Epic,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,12/Jul/24 3:35 PM,16/Jul/24 3:11 PM,16/Jul/24 4:53 PM,,20/Jul/24 12:00 AM,0,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,,,,,,,,,,,,,,,,,,ghx-label-7,,,Manage order,To Do,,purple,,,0|i00119:,,,Sprint 2,12/Jul/24 12:00 AM,,,,,,,,,,,,,To Do,16/Jul/24 2:00 PM
+Manage user,GB-255,10254,Epic,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,12/Jul/24 3:35 PM,16/Jul/24 3:53 PM,16/Jul/24 4:53 PM,,,0,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,,,,,,,,,,,,,,,,,,ghx-label-7,,,Manage user,To Do,,purple,,,0|i00111:,,,Sprint 2,,,,,,,,,,,,,,To Do,12/Jul/24 3:35 PM
+FAQs,GB-254,10253,Epic,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,12/Jul/24 3:35 PM,16/Jul/24 4:59 AM,16/Jul/24 4:53 PM,16/Jul/24 4:59 AM,,0,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,,,,,,,,,,,,,,,,,,ghx-label-7,,,FAQs,To Do,,purple,,,0|i0010t:,,,Sprint 2,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_307430717,,,Done,16/Jul/24 4:59 AM
+Diamond price,GB-253,10252,Epic,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,12/Jul/24 3:35 PM,16/Jul/24 3:51 PM,16/Jul/24 3:11 PM,,18/Jul/24 12:00 AM,0,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,,,,,,,,,,,,,,,,,,ghx-label-7,,,Diamond price,To Do,,purple,,,0|i0010l:,,,Sprint 2,12/Jul/24 12:00 AM,,,,,,,,,,,,,To Do,12/Jul/24 3:35 PM
+"Knowledge ( Jewelry, Size, Diamond)",GB-252,10251,Epic,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,12/Jul/24 3:35 PM,16/Jul/24 3:10 PM,16/Jul/24 4:53 PM,16/Jul/24 4:58 AM,18/Jul/24 12:00 AM,0,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,,,,,,,,,,,,,,,,,,ghx-label-7,,,"Knowledge ( Jewelry, Size, Diamond)",To Do,,purple,,,0|i0010d:,,,Sprint 2,12/Jul/24 12:00 AM,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_307394926,,,Done,16/Jul/24 4:58 AM
+Collection,GB-251,10250,Epic,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,12/Jul/24 3:35 PM,16/Jul/24 3:34 PM,16/Jul/24 3:16 PM,16/Jul/24 4:58 AM,,0,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,,,,,,,,,,,,,,,,,,ghx-label-7,,,Collection,To Do,,purple,,,0|i00105:,,,Sprint 2,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_307404598,,,Done,16/Jul/24 4:58 AM
+Tracking order,GB-250,10249,Epic,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,12/Jul/24 3:35 PM,16/Jul/24 3:35 PM,16/Jul/24 3:15 PM,,,0,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,,,,,,,,,,,,,,,,,,ghx-label-7,,,Tracking order,To Do,,purple,,,0|i000zx:,,,Sprint 2,,,,,,,,,,,,,,To Do,16/Jul/24 3:25 PM
+Category Management,GB-248,10247,Epic,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,12/Jul/24 3:34 PM,16/Jul/24 10:53 AM,16/Jul/24 10:45 AM,16/Jul/24 4:58 AM,,0,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,,,,,,,,,,,,,,,,,,ghx-label-7,,,Category Management:,To Do,,purple,,,0|i000zh:,,,Sprint 2,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_307467591,,,Done,16/Jul/24 4:58 AM
+Diamond Shell Management,GB-247,10246,Epic,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,12/Jul/24 3:34 PM,16/Jul/24 2:36 PM,16/Jul/24 1:04 PM,16/Jul/24 4:58 AM,,0,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,,,,,,,,,,,,,,,,,,ghx-label-7,,,Diamond Shell Management:111,To Do,,purple,,,0|i000z9:,,,Sprint 2,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_307478198,,,Done,16/Jul/24 4:58 AM
+"UR24_Verify that the ""Xác nhận mật khẩu"" (Confirm Password) field must match the ""Mật khẩu"" (Password) field.",GB-246,10245,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,12/Jul/24 2:41 PM,12/Jul/24 3:56 PM,12/Jul/24 3:55 PM,,,0,"Test step:
+
+# Access the account creation form.
+# Enter a valid ""Mật khẩu"" (Password) value (e.g., password123).
+# Enter a different value for ""Xác nhận mật khẩu"" (Confirm Password) (e.g., password456).
+# Attempt to save the form.
+# Repeat steps 2 and 3, entering a matching value for ""Xác nhận mật khẩu"" (Confirm Password).
+# Attempt to save the form.
+
+
+
+Expected Results:
+
+# An error message should be displayed indicating that the ""Xác nhận mật khẩu"" must match the ""Mật khẩu"".
+# The form should not be saved.
+
+Actual Results:
+
+# *Error Message:* ""Xác nhận mật khẩu must match Mật khẩu.""
+# The form is not saved.
+
+*Test Result:* Pass
+
+
+
+!z5626700403702_73947c737b7fbe6fa3e5617e28f85588.jpg|width=784,height=156,alt=""z5626700403702_73947c737b7fbe6fa3e5617e28f85588.jpg""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,12/Jul/24 3:56 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;z5626700403702_73947c737b7fbe6fa3e5617e28f85588.jpg;https://doannnm.atlassian.net/rest/api/3/attachment/content/10160,,,,,,,,,GB-166,User registration,,,,purple,,,0|i000d8:zzzzzzzzzzzzzzzr,,,Sprint 1,,,,,,,,,,,,10165,User registration,To Do,12/Jul/24 2:41 PM
+"UR23_Verify that the first character of the ""Xác nhận mật khẩu"" (Confirm Password) field cannot be a space.",GB-245,10244,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,12/Jul/24 2:38 PM,12/Jul/24 3:55 PM,12/Jul/24 3:55 PM,,,0,"Test step:
+
+# Access the account creation form.
+# Enter a ""Xác nhận mật khẩu"" value starting with a space (e.g., password123).
+# Attempt to save the form.
+
+Expected Results:
+
+# An error message should be displayed indicating that the first character of ""Xác nhận mật khẩu"" cannot be a space.
+# The form should not be saved.
+
+Actual Results:
+
+*Error Message:* ""The first character of Xác nhận mật khẩu cannot be a space."" is not show
+
+*Test Result:* Fail
+
+
+
+!z5626691995239_438caddf804fe446e507054f57a0e6e2.jpg|width=810,height=75,alt=""z5626691995239_438caddf804fe446e507054f57a0e6e2.jpg""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,12/Jul/24 3:55 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;z5626691995239_438caddf804fe446e507054f57a0e6e2.jpg;https://doannnm.atlassian.net/rest/api/3/attachment/content/10159,,,,,,,,,GB-166,User registration,,,,purple,,,0|i000d8:zzzzzzzzzzzzzzzi,,,Sprint 1,,,,,,,,,,,,10165,User registration,To Do,12/Jul/24 2:38 PM
+"UR22_Verify that the ""Xác nhận mật khẩu"" (Confirm Password) field is required.",GB-244,10243,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,12/Jul/24 2:37 PM,12/Jul/24 3:55 PM,12/Jul/24 3:55 PM,,,0,"Test step:
+
+# Access the account creation form.
+# Leave the ""Xác nhận mật khẩu"" field blank.
+# Attempt to save the form.
+
+Expected Results:
+
+# An error message should be displayed indicating that the ""Xác nhận mật khẩu"" field is required.
+# The form should not be saved.
+
+Actual Results:
+
+# *Error Message:* ""Xác nhận mật khẩu is required.""
+# The form is not saved.
+
+*Test Result:* Pass
+
+
+
+!z5626691995239_438caddf804fe446e507054f57a0e6e2.jpg|width=810,height=75,alt=""z5626691995239_438caddf804fe446e507054f57a0e6e2.jpg""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,12/Jul/24 3:55 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;z5626691995239_438caddf804fe446e507054f57a0e6e2.jpg;https://doannnm.atlassian.net/rest/api/3/attachment/content/10158,,,,,,,,,GB-166,User registration,,,,purple,,,0|i000d8:zzzzzzzzzzzzzzz,,,Sprint 1,,,,,,,,,,,,10165,User registration,To Do,12/Jul/24 2:37 PM
+"UR21_Verify that the first character of the ""Mật khẩu"" (Password) field cannot be a space.",GB-243,10242,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,12/Jul/24 2:35 PM,12/Jul/24 3:54 PM,12/Jul/24 3:56 PM,,,0,"Test step: 
+
+# Access the account creation form.
+# Enter a ""Mật khẩu"" value starting with a space (e.g., 123 Main St).
+# Attempt to save the form.
+
+Expected Results:
+
+# An error message should be displayed indicating that the first character of ""Mật khẩu"" cannot be a space.
+# The form should not be saved.
+
+Actual Results:
+
+# *Error Message:* ""The first character of Mật khẩu cannot be a space."" is not show
+
+*Test Result:* Fail
+
+
+
+!z5626691271614_c8c8401cd674c431d570125e258d110e.jpg|width=810,height=91,alt=""z5626691271614_c8c8401cd674c431d570125e258d110e.jpg""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,12/Jul/24 3:54 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;z5626691271614_c8c8401cd674c431d570125e258d110e.jpg;https://doannnm.atlassian.net/rest/api/3/attachment/content/10157,,,,,,,,,GB-166,User registration,,,,purple,,,0|i000d8:zzzzzzzzzzzzzzy,,,Sprint 1,,,,,,,,,,,,10165,User registration,To Do,12/Jul/24 2:35 PM
+"UR20_Verify that the ""Mật khẩu"" (Password) field is required.",GB-242,10241,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,12/Jul/24 2:34 PM,12/Jul/24 3:54 PM,12/Jul/24 3:52 PM,,,0,"Test step:
+
+# Access the account creation form.
+# Leave the ""Mật khẩu"" field blank.
+# Attempt to save the form.
+
+Expected Results:
+
+# An error message should be displayed indicating that the ""Mật khẩu"" field is required.
+# The form should not be saved.
+
+Actual Results:
+
+# *Error Message:* ""Mật khẩu is required.""
+# The form is not saved.
+
+*Test Result:* Pass
+
+
+
+!z5626691271614_c8c8401cd674c431d570125e258d110e.jpg|width=810,height=91,alt=""z5626691271614_c8c8401cd674c431d570125e258d110e.jpg""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,12/Jul/24 3:54 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;z5626691271614_c8c8401cd674c431d570125e258d110e.jpg;https://doannnm.atlassian.net/rest/api/3/attachment/content/10156,,,,,,,,,GB-166,User registration,,,,purple,,,0|i000d8:zzzzzzzzzzzzzzx,,,Sprint 1,,,,,,,,,,,,10165,User registration,To Do,12/Jul/24 2:34 PM
+"UR19_Verify that the ""Email"" field cannot start or end with ""."", ""-"" or ""_"".",GB-241,10240,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,12/Jul/24 2:32 PM,12/Jul/24 3:52 PM,12/Jul/24 3:51 PM,,,0,"Test step:
+
+# Access the account creation form.
+# Enter an ""Email"" value with ""."" or ""-"" or ""_"" as the first character (e.g., [email address removed], [email address removed], [email address removed]).
+# Attempt to save the form.
+# Repeat step 2 and 3, entering an ""Email"" value with ""."" or ""-"" or ""_"" as the last character (e.g., [email address removed], [email address removed],_ [_someone@example.com_|mailto:someone@example.com]).
+
+Expected Results:
+
+# An error message should be displayed indicating that the email cannot start or end with ""."", ""-"" or ""_"".
+# The form should not be saved.
+
+Actual Results:
+
+*Error Message:* ""Email cannot start or end with '.', '-' or '_'."" is not show
+
+*Test Result:* Fail
+
+
+
+
+
+!z5626684249694_204098f9a750de3f28079dc58d0946b6.jpg|width=804,height=73,alt=""z5626684249694_204098f9a750de3f28079dc58d0946b6.jpg""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,12/Jul/24 3:52 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;z5626684249694_204098f9a750de3f28079dc58d0946b6.jpg;https://doannnm.atlassian.net/rest/api/3/attachment/content/10155,,,,,,,,,GB-166,User registration,,,,purple,,,0|i000d8:zzzzzzzzzzzzzzv,,,Sprint 1,,,,,,,,,,,,10165,User registration,To Do,12/Jul/24 2:32 PM
+"UR18_ Verify that the ""Email"" field is required.",GB-240,10239,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,12/Jul/24 2:30 PM,12/Jul/24 3:51 PM,12/Jul/24 3:50 PM,,,0,"Test step:
+
+# Access the account creation form.
+# Leave the ""Email"" field blank.
+# Attempt to save the form.
+
+Expected Results:
+
+# An error message should be displayed indicating that the ""Email"" field is required.
+# The form should not be saved.
+
+Actual Results:
+
+# *Error Message:* ""Email is required.""
+# The form is not saved.
+
+*Test Result:* Pass
+
+
+
+!z5626680200966_4bb66f594e0349ffa5fa6d603aeb84ff.jpg|width=789,height=70,alt=""z5626680200966_4bb66f594e0349ffa5fa6d603aeb84ff.jpg""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,12/Jul/24 3:51 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;z5626680200966_4bb66f594e0349ffa5fa6d603aeb84ff.jpg;https://doannnm.atlassian.net/rest/api/3/attachment/content/10154,,,,,,,,,GB-166,User registration,,,,purple,,,0|i000d8:zzzzzzzzzzzzzzr,,,Sprint 1,,,,,,,,,,,,10165,User registration,To Do,12/Jul/24 2:30 PM
+"UR17_Verify that the ""Giới tính"" (Gender) field is required.",GB-239,10238,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,12/Jul/24 2:28 PM,12/Jul/24 3:50 PM,12/Jul/24 3:50 PM,,,0,"Test step:
+1. Access the account creation form.
+
+# Leave the ""Giới tính"" field blank.
+# Attempt to save the form.
+
+Expected Results:
+
+# An error message should be displayed indicating that the ""Giới tính"" field is required.
+# The form should not be saved.
+
+Actual Results:
+
+# *Error Message:* ""Giới tính is required.”
+# The form is not saved.
+
+*Test Result:* Pass
+
+
+
+!z5626675072893_ef1c5e3df402838e0e46e54e01ebc0f2.jpg|width=800,height=86,alt=""z5626675072893_ef1c5e3df402838e0e46e54e01ebc0f2.jpg""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,12/Jul/24 3:50 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;z5626675072893_ef1c5e3df402838e0e46e54e01ebc0f2.jpg;https://doannnm.atlassian.net/rest/api/3/attachment/content/10153,,,,,,,,,GB-166,User registration,,,,purple,,,0|i000d8:zzzzzzzzzzzzzzi,,,Sprint 1,,,,,,,,,,,,10165,User registration,To Do,12/Jul/24 2:28 PM
+"UR16_Verify that the first character of the ""Địa chỉ"" (Address) field cannot be a space.",GB-238,10237,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,12/Jul/24 2:26 PM,12/Jul/24 3:48 PM,12/Jul/24 3:47 PM,,,0,"Test step:
+
+# Access the account creation form.
+# Enter a ""Địa chỉ"" value starting with a space (e.g., 123 Main St).
+# Attempt to save the form.
+
+Expected Results:
+
+# An error message should be displayed indicating that the first character of ""Địa chỉ"" cannot be a space.
+# The form should not be saved.
+
+Actual Results:
+
+*Error Message:* ""The first character of Địa chỉ cannot be a space."" is not show
+
+*Test Result:* Fail
+
+
+
+!z5626668720223_b6c4ff49d27aa9a41ef10f54f5082e27.jpg|width=773,height=69,alt=""z5626668720223_b6c4ff49d27aa9a41ef10f54f5082e27.jpg""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,12/Jul/24 3:48 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;z5626668720223_b6c4ff49d27aa9a41ef10f54f5082e27.jpg;https://doannnm.atlassian.net/rest/api/3/attachment/content/10152,,,,,,,,,GB-166,User registration,,,,purple,,,0|i000d8:zzzzzzzzzzzzzz,,,Sprint 1,,,,,,,,,,,,10165,User registration,To Do,12/Jul/24 2:26 PM
+"UR15_Verify that the ""Địa chỉ"" (Address) field cannot contain special characters except for backslash () and forward slash (/).",GB-237,10236,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,12/Jul/24 2:24 PM,12/Jul/24 3:47 PM,12/Jul/24 3:46 PM,,,0,"Test step:
+
+# Access the account creation form.
+# Enter a ""Địa chỉ"" value containing special characters other than backslash () and forward slash (/). (e.g., @#$%^&*,!.)
+# Attempt to save the form.
+
+Expected Results:
+
+# An error message should be displayed indicating that special characters are not allowed in the ""Địa chỉ"" field except for backslash () and forward slash (/).
+# The form should not be saved.
+
+Actual Results:
+
+# *Error Message:* ""Địa chỉ cannot contain special characters except ‘\’ and ‘/’.” is not show
+
+*Test Result:* Fail
+
+
+
+!z5626665794083_32161013bbb17cf3937c87145c178c80.jpg|width=791,height=84,alt=""z5626665794083_32161013bbb17cf3937c87145c178c80.jpg""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,12/Jul/24 3:47 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;z5626665794083_32161013bbb17cf3937c87145c178c80.jpg;https://doannnm.atlassian.net/rest/api/3/attachment/content/10151,,,,,,,,,GB-166,User registration,,,,purple,,,0|i000d8:zzzzzzzzzzzzzy,,,Sprint 1,,,,,,,,,,,,10165,User registration,To Do,12/Jul/24 2:24 PM
+"UR14_erify that the ""Địa chỉ"" (Address) field is required.",GB-236,10235,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,12/Jul/24 2:22 PM,12/Jul/24 3:46 PM,12/Jul/24 3:45 PM,,,0,"Test step:
+
+# Access the account creation form.
+# Leave the ""Địa chỉ"" field blank.
+# Attempt to save the form.
+
+Expected Results:
+
+# An error message should be displayed indicating that the ""Địa chỉ"" field is required
+# The form should not be saved.
+
+Actual Results:
+
+# *Error Message:* ""Địa chỉ is required.""
+# The form is not saved.
+
+*Test Result:* Pass
+
+
+
+!z5626661957183_7a42981cf9e35e0f66ea8e7045832e08.jpg|width=807,height=90,alt=""z5626661957183_7a42981cf9e35e0f66ea8e7045832e08.jpg""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,12/Jul/24 3:46 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;z5626661957183_7a42981cf9e35e0f66ea8e7045832e08.jpg;https://doannnm.atlassian.net/rest/api/3/attachment/content/10150,,,,,,,,,GB-166,User registration,,,,purple,,,0|i000d8:zzzzzzzzzzzzzx,,,Sprint 1,,,,,,,,,,,,10165,User registration,To Do,12/Jul/24 2:22 PM
+"UR13_Verify that the first character of the ""Số điện thoại"" field cannot be a space.",GB-235,10234,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,12/Jul/24 2:20 PM,12/Jul/24 3:45 PM,12/Jul/24 3:44 PM,,,0,"Test step:
+
+# Access the account creation form.
+# Enter a ""Số điện thoại"" value starting with a space (e.g., 123456789).
+# Attempt to save the form.
+
+Expected Results:
+
+# An error message should be displayed indicating that the first character of ""Số điện thoại"" cannot be a space.
+# The form should not be saved
+
+Actual Results:
+
+*Error Message:* ""The first character of Số điện thoại cannot be a space."" is not show
+
+*Test Result:* Fail
+
+
+
+!z5626659105040_d3447a67a2cb66f30ff20a637d05c098.jpg|width=801,height=75,alt=""z5626659105040_d3447a67a2cb66f30ff20a637d05c098.jpg""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,12/Jul/24 3:45 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;z5626659105040_d3447a67a2cb66f30ff20a637d05c098.jpg;https://doannnm.atlassian.net/rest/api/3/attachment/content/10149,,,,,,,,,GB-166,User registration,,,,purple,,,0|i000d8:zzzzzzzzzzzzzv,,,Sprint 1,,,,,,,,,,,,10165,User registration,To Do,12/Jul/24 2:20 PM
+"UR12_Verify that the ""Số điện thoại"" field cannot contain characters other than numbers, hyphens (-), and spaces.",GB-234,10233,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,12/Jul/24 2:16 PM,12/Jul/24 3:44 PM,12/Jul/24 3:43 PM,,,0,"Test Step: 
+
+# Access the account creation form.
+# Enter a ""Số điện thoại"" value containing characters other than numbers, hyphens (-), and spaces (e.g., abcdef, !@#).
+# Attempt to save the form.
+
+Expected Results:
+
+# An error message should be displayed indicating that only numbers, hyphens (-), and spaces are allowed in the ""Số điện thoại"" field.
+# The form should not be saved.
+
+Actual Results:
+
+*Error Message:* ""Số điện thoại cannot contain characters."" is not show
+
+*Test Result:* Pass
+
+
+
+!z5626654589420_db81745833368f6788be2173e0d81b98.jpg|width=805,height=80,alt=""z5626654589420_db81745833368f6788be2173e0d81b98.jpg""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,12/Jul/24 3:44 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;z5626654589420_db81745833368f6788be2173e0d81b98.jpg;https://doannnm.atlassian.net/rest/api/3/attachment/content/10148,,,,,,,,,GB-166,User registration,,,,purple,,,0|i000d8:zzzzzzzzzzzzzr,,,Sprint 1,,,,,,,,,,,,10165,User registration,To Do,12/Jul/24 2:16 PM
+"UR11_ Verify that the ""Số điện thoại"" field cannot contain special characters.",GB-233,10232,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,12/Jul/24 2:12 PM,12/Jul/24 3:32 PM,12/Jul/24 3:43 PM,,,0,"Test step:
+
+# Access the account creation form.
+# Enter a ""Số điện thoại"" value containing special characters (e.g., @, #, $, % ^ & *).
+# Attempt to save the form.
+
+Expected Results:
+
+# An error message should be displayed indicating that special characters are not allowed in the ""Số điện thoại"" field.
+# The form should not be saved.
+
+Actual Results:
+
+*Error Message:* ""Số điện thoại cannot contain special characters."" is not show
+
+*Test Result:* Fail",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,,,,,,,,,,GB-166,User registration,,,,purple,,,0|i000d8:zzzzzzzzzzzzzi,,,Sprint 1,,,,,,,,,,,,10165,User registration,To Do,12/Jul/24 2:12 PM
+"UR10_Verify that the ""Số điện thoại"" field is required.",GB-232,10231,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,12/Jul/24 2:09 PM,12/Jul/24 3:43 PM,12/Jul/24 3:42 PM,,,0,"Test step:
+
+# Access the account creation form.
+# Leave the ""Số điện thoại"" field blank.
+# Attempt to save the form.
+
+Expected Results:
+
+# An error message should be displayed indicating that the ""Số điện thoại"" field is required.
+# The form should not be saved.
+
+Actual Results:
+
+# *Error Message:* ""Số điện thoại is required.""
+# The form is not saved.
+
+*Test Result:* Pass
+
+
+
+!z5626649560489_3b4516922fb358ada4b9234b05af4f82.jpg|width=836,height=85,alt=""z5626649560489_3b4516922fb358ada4b9234b05af4f82.jpg""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,12/Jul/24 3:43 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;z5626649560489_3b4516922fb358ada4b9234b05af4f82.jpg;https://doannnm.atlassian.net/rest/api/3/attachment/content/10147,,,,,,,,,GB-166,User registration,,,,purple,,,0|i000d8:zzzzzzzzzzzzz,,,Sprint 1,,,,,,,,,,,,10165,User registration,To Do,12/Jul/24 2:09 PM
+"UR9_ Verify that the ""Ngày sinh"" field is required",GB-231,10230,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,12/Jul/24 2:05 PM,12/Jul/24 3:42 PM,12/Jul/24 3:41 PM,,,0,"Test Step:
+
+# Access the account creation form.
+# Leave the ""Ngày sinh"" field blank.
+# Attempt to save the form.
+
+Expected Results:
+
+# An error message should be displayed indicating that the ""Ngày sinh"" field is required.
+# The form should not be saved.
+
+Actual Results:
+
+# *Error Message:* ""Ngày sinh is required.""
+# The form is not saved.
+
+*Test Result:* Fail
+
+
+
+
+
+!z5626645953191_ac8679b3048ee39151af8b16c054b261.jpg|width=858,height=521,alt=""z5626645953191_ac8679b3048ee39151af8b16c054b261.jpg""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,12/Jul/24 3:42 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;z5626645953191_ac8679b3048ee39151af8b16c054b261.jpg;https://doannnm.atlassian.net/rest/api/3/attachment/content/10146,,,,,,,,,GB-166,User registration,,,,purple,,,0|i000d8:zzzzzzzzzzzzy,,,Sprint 1,,,,,,,,,,,,10165,User registration,To Do,12/Jul/24 2:05 PM
+"UR8_Verify that the first character of the ""Tên"" field cannot be a space.",GB-230,10229,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,12/Jul/24 2:03 PM,12/Jul/24 3:41 PM,12/Jul/24 3:40 PM,,,0,"Test Step:
+
+# Access the account creation form.
+# Enter a ""Tên"" value starting with a space (e.g., Tên Nguyễn).
+# Attempt to save the form.
+
+Expected Results:
+
+# An error message should be displayed indicating that the first character of ""Tên"" cannot be a space.
+# The form should not be saved.
+
+Actual Results:
+
+*Error Message:* ""The first character of Tên cannot be a space."" is not show
+
+*Test Result:* Fail
+
+
+
+!z5626640961028_c2d401efb3f87befe9e63108bcfdfcf8.jpg|width=786,height=111,alt=""z5626640961028_c2d401efb3f87befe9e63108bcfdfcf8.jpg""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,12/Jul/24 3:41 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;z5626640961028_c2d401efb3f87befe9e63108bcfdfcf8.jpg;https://doannnm.atlassian.net/rest/api/3/attachment/content/10145,,,,,,,,,GB-166,User registration,,,,purple,,,0|i000d8:zzzzzzzzzzzzx,,,Sprint 1,,,,,,,,,,,,10165,User registration,To Do,12/Jul/24 2:03 PM
+"UR7_Verify that the ""Tên"" field cannot contain numbers.",GB-229,10228,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,12/Jul/24 2:01 PM,12/Jul/24 3:40 PM,12/Jul/24 3:40 PM,,,0,"Test Step:
+
+# Access the account creation form.
+# Enter a ""Tên"" value containing a number (e.g., John123, Doe456).
+# Attempt to save the form.
+
+Expected Results:
+
+# An error message should be displayed indicating that numbers are not allowed in the ""Tên"" field.
+# The form should not be saved.
+
+Actual Results:
+
+*Error Message:* ""Tên cannot contain numbers."" is not show 
+
+*Test Result:* Fail
+
+
+
+!z5626640961028_c2d401efb3f87befe9e63108bcfdfcf8.jpg|width=786,height=111,alt=""z5626640961028_c2d401efb3f87befe9e63108bcfdfcf8.jpg""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,12/Jul/24 3:40 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;z5626640961028_c2d401efb3f87befe9e63108bcfdfcf8.jpg;https://doannnm.atlassian.net/rest/api/3/attachment/content/10144,,,,,,,,,GB-166,User registration,,,,purple,,,0|i000d8:zzzzzzzzzzzzv,,,Sprint 1,,,,,,,,,,,,10165,User registration,To Do,12/Jul/24 2:01 PM
+"UR6_Verify that the ""Tên"" field cannot contain special characters.",GB-228,10227,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,12/Jul/24 1:58 PM,12/Jul/24 3:39 PM,12/Jul/24 3:39 PM,,,0,"Test Step: 
+
+# Access the account creation form.
+# Enter a ""Tên"" value containing special characters (e.g., @, #, $, % ^ & *).
+# Attempt to save the form.
+
+Expected Results:
+
+# An error message should be displayed indicating that special characters are not allowed in the ""Tên"" field.
+# The form should not be saved.
+
+Actual Results:
+
+# *Error Message:* ""Tên cannot contain special characters."" is not show
+
+*Test Result:* Pass
+
+
+
+!z5626635768915_39d91684605a922e1a044b715b55de62.jpg|width=806,height=132,alt=""z5626635768915_39d91684605a922e1a044b715b55de62.jpg""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,12/Jul/24 3:39 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;z5626635768915_39d91684605a922e1a044b715b55de62.jpg;https://doannnm.atlassian.net/rest/api/3/attachment/content/10143,,,,,,,,,GB-166,User registration,,,,purple,,,0|i000d8:zzzzzzzzzzzzr,,,Sprint 1,,,,,,,,,,,,10165,User registration,To Do,12/Jul/24 1:58 PM
+"UR5_Verify that the ""Tên"" field is required.",GB-227,10226,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,12/Jul/24 1:55 PM,12/Jul/24 3:38 PM,12/Jul/24 3:40 PM,,,0,"Test step:
+
+# Access the account creation form.
+# Leave the ""Tên"" field blank.
+# Attempt to save the form.
+
+Expected Results:
+
+# An error message should be displayed indicating that the ""Tên"" field is required
+# The form should not be saved.
+
+Actual Results:
+
+# *Error Message:* ""Tên is required.""
+# The form is not saved.
+
+*Test Result:* Pass
+
+
+
+!z5626633137934_e423d2b8f4d13ce04f90b47bd58a348e.jpg|width=827,height=129,alt=""z5626633137934_e423d2b8f4d13ce04f90b47bd58a348e.jpg""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,12/Jul/24 3:38 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;z5626633137934_e423d2b8f4d13ce04f90b47bd58a348e.jpg;https://doannnm.atlassian.net/rest/api/3/attachment/content/10142,,,,,,,,,GB-166,User registration,,,,purple,,,0|i000d8:zzzzzzzzzzzzi,,,Sprint 1,,,,,,,,,,,,10165,User registration,To Do,12/Jul/24 1:55 PM
+"UR4_Verify that the first character of the ""Họ"" field cannot be a space.",GB-226,10225,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,12/Jul/24 1:52 PM,12/Jul/24 3:37 PM,12/Jul/24 3:39 PM,,,0,"Test step:
+
+# Access the account creation form.
+# Enter a ""Họ"" value starting with a space (e.g., Họ Nguyễn).
+# Attempt to save the form.
+
+Expected Results:
+
+# An error message should be displayed indicating that the first character of ""Họ"" cannot be a space
+# The form should not be saved
+
+Actual Results:
+
+# *Error Message:* ""The first character of Họ cannot be a space."" is not show
+
+*Test Result:* Fail
+
+
+
+!z5626626209230_d3a4a0ff3d194f389139f70eb0e00882.jpg|width=786,height=167,alt=""z5626626209230_d3a4a0ff3d194f389139f70eb0e00882.jpg""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,12/Jul/24 3:37 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;z5626626209230_d3a4a0ff3d194f389139f70eb0e00882.jpg;https://doannnm.atlassian.net/rest/api/3/attachment/content/10141,,,,,,,,,GB-166,User registration,,,,purple,,,0|i000d8:zzzzzzzzzzzz,,,Sprint 1,,,,,,,,,,,,10165,User registration,To Do,12/Jul/24 1:52 PM
+"UR3_Verify that the ""Họ"" field cannot contain numbers.",GB-225,10224,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,12/Jul/24 1:49 PM,12/Jul/24 3:37 PM,12/Jul/24 3:35 PM,,,0,"Test Step:
+
+# Access the account creation form.
+# Enter a ""Họ"" value containing a number (e.g., John123, Doe456).
+# Attempt to save the form.
+
+Expected Results:
+
+# An error message should be displayed indicating that numbers are not allowed in the ""Họ"" field.
+# The form should not be saved.
+
+Actual Results:
+
+# *Error Message:* ""Họ cannot contain numbers” is not show
+
+*Test Result:* Pass
+
+
+!z5626626209230_d3a4a0ff3d194f389139f70eb0e00882.jpg|width=786,height=167,alt=""z5626626209230_d3a4a0ff3d194f389139f70eb0e00882.jpg""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,12/Jul/24 3:37 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;z5626626209230_d3a4a0ff3d194f389139f70eb0e00882.jpg;https://doannnm.atlassian.net/rest/api/3/attachment/content/10140,,,,,,,,,GB-166,User registration,,,,purple,,,0|i000d8:zzzzzzzzzzzy,,,Sprint 1,,,,,,,,,,,,10165,User registration,To Do,12/Jul/24 1:49 PM
+"UR2_Verify that the ""Họ"" field cannot contain special characters",GB-224,10223,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,12/Jul/24 1:45 PM,12/Jul/24 3:35 PM,12/Jul/24 3:40 PM,,,0,"Test Step:
+  1. Access the account creation form.
+
+# Enter a ""Họ"" value containing special characters (e.g., @, #, $, % ^ & *).
+# Attempt to save the form.
+
+Expected Results:
+
+# An error message displayed indicating that special characters are not allowed in the ""Họ"" field.
+
+Actual Result:
+
+# An error message displayed indicating that special characters are not allowed in the ""Họ"" field.
+
+*Test Result:* Pass
+
+
+
+
+
+!z5626607732982_e7c6b384cacb0a70406c8c3944631a12.jpg|width=792,height=150,alt=""z5626607732982_e7c6b384cacb0a70406c8c3944631a12.jpg""!",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,12/Jul/24 3:35 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;z5626607732982_e7c6b384cacb0a70406c8c3944631a12.jpg;https://doannnm.atlassian.net/rest/api/3/attachment/content/10139,,,,,,,,,GB-166,User registration,,,,purple,,,0|i000d8:zzzzzzzzzzzw,,,Sprint 1,,,,,,,,,,,,10165,User registration,To Do,12/Jul/24 1:45 PM
+SB29_Product ID must be valid,GB-223,10222,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,12/Jul/24 12:00 PM,12/Jul/24 12:41 PM,16/Jul/24 4:53 PM,,,0,"*Test Level:* Unit
+
+*Test Steps:* 
+
+* Click on the “Tìm kiếm sản phẩm” box.
+
+* Type product id and click in the icon find
+
+*Expected Result:* Notification will appear
+
+*Actual Result:* Notification disappeared.
+
+*Testcase Result:* not Pass",,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,,,,,,,,,,12/Jul/24 12:41 PM;712020:3bc6ce36-b821-473c-8ed4-53b643d51207;Screenshot 2024-07-12 124103.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10137,,,,,,,,,GB-213,Search browser,,,,purple,,,0|i000d8:zzzzzzzzzzzr1zzzv,,,Sprint 1,,,,,,,,,,,,10212,Search browser,To Do,12/Jul/24 12:00 PM
+SB28_Special characters are not allowed,GB-222,10221,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,12/Jul/24 12:00 PM,12/Jul/24 12:37 PM,16/Jul/24 4:53 PM,,,0,"*Test Level:* Unit
+
+*Test Steps:* 
+
+* Click on the “Tìm kiếm sản phẩm” box.
+
+* Type special character and click in the icon find
+
+*Expected Result:* Notification will appear
+
+*Actual Result:* Notification disappeared.
+
+*Testcase Result:* not Pass",,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,,,,,,,,,,12/Jul/24 12:37 PM;712020:3bc6ce36-b821-473c-8ed4-53b643d51207;Screenshot 2024-07-12 123708.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10135,,,,,,,,,GB-213,Search browser,,,,purple,,,0|i000d8:zzzzzzzzzzzr1zzzr,,,Sprint 1,,,,,,,,,,,,10212,Search browser,To Do,12/Jul/24 12:00 PM
+SB27_The search term must not be blank,GB-221,10220,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,12/Jul/24 12:00 PM,12/Jul/24 12:35 PM,16/Jul/24 4:53 PM,,,0,"*Test Level:* Unit
+
+*Test Steps:* 
+
+* Click on the “Tìm kiếm sản phẩm” box.
+
+* Type any characters and click in the icon find
+
+*Expected Result:* Notification will appear
+
+*Actual Result:* Notification disappeared.
+
+*Testcase Result:* not Pass",,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,,,,,,,,,,12/Jul/24 12:35 PM;712020:3bc6ce36-b821-473c-8ed4-53b643d51207;Screenshot 2024-07-12 123519.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10134,,,,,,,,,GB-213,Search browser,,,,purple,,,0|i000d8:zzzzzzzzzzzr1zzzi,,,Sprint 1,,,,,,,,,,,,10212,Search browser,To Do,12/Jul/24 12:00 PM
+SC36_Mã giảm giá/quà tặng must be valid and not expired,GB-220,10219,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,12/Jul/24 11:59 AM,16/Jul/24 4:19 AM,16/Jul/24 4:53 PM,,,0,"*Test Level:* Unit
+
+*Test Steps:* 
+
+* Click on the “mã giảm giá” box.
+* type “mã giảm giá”
+
+*Expected Result:* “mã giảm giá must be valid and not expired
+
+*Actual Result:* “mã giảm giá must be valid and not expired
+
+*Testcase Result:* pass ",,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,,,,,,,,,,16/Jul/24 4:19 AM;712020:3bc6ce36-b821-473c-8ed4-53b643d51207;Screenshot 2024-07-16 041905.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10164,,,,,,,,,GB-212,Shopping cart,,,,purple,,,0|i000d8:zzzzzzzzzzzr1zzz,,,Sprint 1,,,,,,,,,,,,10211,Shopping cart,To Do,12/Jul/24 11:59 AM
+SC35_Mã giảm giá/quà tặng cannot contain special character,GB-219,10218,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,12/Jul/24 11:58 AM,16/Jul/24 4:16 AM,16/Jul/24 4:53 PM,,,0,"*Test Level:* Unit
+
+*Test Steps:* 
+
+* Click on the “mã giảm giá” box.
+* type the special character
+
+*Expected Result:* “mã giảm giá cannot contain special character“ will appear
+
+*Actual Result:* “mã giảm giá cannot contain special character“ disappeared.
+
+*Testcase Result:* not pass ",,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,,,,,,,,,,16/Jul/24 4:16 AM;712020:3bc6ce36-b821-473c-8ed4-53b643d51207;Screenshot 2024-07-16 041637.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10163,,,,,,,,,GB-212,Shopping cart,,,,purple,,,0|i000d8:zzzzzzzzzzzr1zzy,,,Sprint 1,,,,,,,,,,,,10211,Shopping cart,To Do,12/Jul/24 11:58 AM
+SC34_Cart must not be empty during checkout,GB-218,10217,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,12/Jul/24 11:58 AM,16/Jul/24 4:13 AM,16/Jul/24 4:53 PM,,,0,"*Test Level:* Unit
+
+*Test Steps:* 
+
+* Click on the “giỏ hàng” box.
+
+*Expected Result:* “giỏ hàng“ will appear
+
+*Actual Result:* “giỏ hàng“ will appear.
+
+*Testcase Result:*Pass",,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,,,,,,,,,,16/Jul/24 4:13 AM;712020:3bc6ce36-b821-473c-8ed4-53b643d51207;Screenshot 2024-07-16 041311.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10162,,,,,,,,,GB-212,Shopping cart,,,,purple,,,0|i000d8:zzzzzzzzzzzr1zzx,,,Sprint 1,,,,,,,,,,,,10211,Shopping cart,To Do,12/Jul/24 11:58 AM
+SC33_Items must be added to cart before checkout,GB-217,10216,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,12/Jul/24 11:57 AM,16/Jul/24 4:12 AM,16/Jul/24 4:53 PM,,,0,"*Test Level:* Unit
+
+*Test Steps:* 
+
+* Click on the “shop” box.
+
+*  Click in the icon “thêm vào giỏ hàng”
+
+*Expected Result:* “Thêm vào giỏ hàng“ will appear
+
+*Actual Result:* “Thêm vào giỏ hàng“ will appear.
+
+*Testcase Result:*Pass",,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,,,,,,,,,,16/Jul/24 4:11 AM;712020:3bc6ce36-b821-473c-8ed4-53b643d51207;Screenshot 2024-07-16 041119.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10161,,,,,,,,,GB-212,Shopping cart,,,,purple,,,0|i000d8:zzzzzzzzzzzr1zzv,,,Sprint 1,,,,,,,,,,,,10211,Shopping cart,To Do,12/Jul/24 11:57 AM
+PD32_Size must not be blank,GB-216,10215,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,12/Jul/24 11:57 AM,16/Jul/24 4:28 AM,16/Jul/24 4:53 PM,,,0,"*Test Level:* Unit
+
+*Test Steps:* 
+
+* Click on the “sản phẩm kim cương” box.
+
+*Expected Result:* “size“ will appear
+
+*Actual Result:* “size“  disappeared
+
+*Testcase Result:*  not Pass",,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,,,,,,,,,,16/Jul/24 4:28 AM;712020:3bc6ce36-b821-473c-8ed4-53b643d51207;Screenshot 2024-07-16 042813.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10168,,,,,,,,,GB-211,Product detail,,,,purple,,,0|i000d8:zzzzzzzzzzzr1zzr,,,Sprint 1,,,,,,,,,,,,10210,Product detail,To Do,12/Jul/24 11:57 AM
+PD31_Số lượng must not be blank.,GB-215,10214,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,12/Jul/24 11:56 AM,16/Jul/24 4:25 AM,16/Jul/24 4:53 PM,,,0,"*Test Level:* Unit
+
+*Test Steps:* 
+
+* Click on the “sản phẩm kim cương” box.
+
+*Expected Result:* “số lượng“ will appear
+
+*Actual Result:* “số lượng“ will appear
+
+*Testcase Result:*Pass",,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,,,,,,,,,,16/Jul/24 4:25 AM;712020:3bc6ce36-b821-473c-8ed4-53b643d51207;Screenshot 2024-07-16 042524.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10166,,,,,,,,,GB-211,Product detail,,,,purple,,,0|i000d8:zzzzzzzzzzzr1zzi,,,Sprint 1,,,,,,,,,,,,10210,Product detail,To Do,12/Jul/24 11:56 AM
+PD30_Chất liệu must not be blank,GB-214,10213,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,12/Jul/24 11:56 AM,16/Jul/24 4:26 AM,16/Jul/24 4:53 PM,,,0,"*Test Level:* Unit
+
+*Test Steps:* 
+
+* Click on the “sản phẩm kim cương” box.
+
+*Expected Result:* “chất liệu“ will appear
+
+*Actual Result:* “chất liệu“ will appear
+
+*Testcase Result:*Pass",,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,,,,,,,,,,16/Jul/24 4:26 AM;712020:3bc6ce36-b821-473c-8ed4-53b643d51207;Screenshot 2024-07-16 042558.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10167,,,,,,,,,GB-211,Product detail,,,,purple,,,0|i000d8:zzzzzzzzzzzr1zz,,,Sprint 1,,,,,,,,,,,,10210,Product detail,To Do,12/Jul/24 11:56 AM
+Search browser,GB-213,10212,Epic,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,12/Jul/24 11:51 AM,12/Jul/24 12:00 PM,16/Jul/24 4:53 PM,,,0,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,,,,,,,,,,,,,,,,,,ghx-label-7,,,Search browser,To Do,,purple,,,0|i000z1:,,,,,,,,,,,,,,,,,To Do,12/Jul/24 11:51 AM
+Shopping cart,GB-212,10211,Epic,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,12/Jul/24 11:51 AM,12/Jul/24 11:59 AM,16/Jul/24 4:53 PM,,,0,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,,,,,,,,,,,,,,,,,,ghx-label-7,,,Shopping cart,To Do,,purple,,,0|i000yt:,,,,,,,,,,,,,,,,,To Do,12/Jul/24 11:51 AM
+Product detail,GB-211,10210,Epic,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,12/Jul/24 11:51 AM,12/Jul/24 11:57 AM,16/Jul/24 4:53 PM,,,0,,,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,,,,,,,,,,,,,,,,,,ghx-label-7,,,Product detail,To Do,,purple,,,0|i000yl:,,,,,,,,,,,,,,,,,To Do,12/Jul/24 11:51 AM
+DCM_06: The first character of fileURL cannot be a space.,GB-209,10208,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Truong Dinh An (K17 HCM),712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6,Truong Dinh An (K17 HCM),712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6,10/Jul/24 9:37 PM,10/Jul/24 9:37 PM,16/Jul/24 4:53 PM,10/Jul/24 9:37 PM,,0,"Test level: Unit
+
+Test step:
+
+* Log in with an administrator role account.
+* Select Diamond Certificate Management.
+* Fill out all forms
+* Press the button
+
+Expected Result:  fileURL cannot contain special characters.
+Actual Result:  fileURL cannot contain special characters.
+Test Result: Skip
+
+
+
+!Ảnh màn hình 2024-07-10 lúc 21.34.00-20240710-143413.png|width=939,height=269,alt=""Ảnh màn hình 2024-07-10 lúc 21.34.00-20240710-143413.png""!",,Truong Dinh An (K17 HCM),712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6,,,,,,,,,,,10/Jul/24 9:37 PM;712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6;Ảnh màn hình 2024-07-10 lúc 21.34.00-20240710-143413.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10109,,,,,,,,,GB-20,Diamond Certificate Management,,,,purple,,,0|i000yd:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_20598,10019,Diamond Certificate Management,Done,10/Jul/24 9:37 PM
+DCM_05: fileURL cannot contain special characters.,GB-208,10207,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Truong Dinh An (K17 HCM),712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6,Truong Dinh An (K17 HCM),712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6,10/Jul/24 9:35 PM,10/Jul/24 9:36 PM,16/Jul/24 4:53 PM,10/Jul/24 9:36 PM,,0,"Test level: Unit
+
+Test step:
+
+* Log in with an administrator role account.
+* Select Diamond Certificate Management.
+* Fill out all forms
+* Press the button
+
+Expected Result:  fileURL cannot contain special characters.
+Actual Result:  fileURL cannot contain special characters.
+Test Result: Skip 
+
+
+
+!Ảnh màn hình 2024-07-10 lúc 21.34.00-20240710-143413.png|width=939,height=269,alt=""Ảnh màn hình 2024-07-10 lúc 21.34.00-20240710-143413.png""!",,Truong Dinh An (K17 HCM),712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6,,,,,,,,,,,10/Jul/24 9:36 PM;712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6;Ảnh màn hình 2024-07-10 lúc 21.34.00-20240710-143413.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10107,,,,,,,,,GB-20,Diamond Certificate Management,,,,purple,,,0|i000y5:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_66033,10019,Diamond Certificate Management,Done,10/Jul/24 9:36 PM
+DCM_04: fileURL is required.,GB-207,10206,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Truong Dinh An (K17 HCM),712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6,Truong Dinh An (K17 HCM),712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6,10/Jul/24 9:35 PM,10/Jul/24 9:35 PM,16/Jul/24 4:53 PM,10/Jul/24 9:35 PM,,0,"Test level: Unit
+
+Test step:
+
+* Log in with an administrator role account.
+* Select Diamond Certificate Management.
+* Fill out all forms 
+* Press the button
+
+Expected Result: fileURL is required.
+Actual Result: fileURL is required.
+Test Result: Pass
+
+
+
+!Ảnh màn hình 2024-07-10 lúc 21.34.00-20240710-143413.png|width=939,height=269,alt=""Ảnh màn hình 2024-07-10 lúc 21.34.00-20240710-143413.png""!",,Truong Dinh An (K17 HCM),712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6,,,,,,,,,,,10/Jul/24 9:35 PM;712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6;Ảnh màn hình 2024-07-10 lúc 21.34.00-20240710-143413.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10104,,,,,,,,,GB-20,Diamond Certificate Management,,,,,,,0|i000xx:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_1180,10019,Diamond Certificate Management,Done,10/Jul/24 9:35 PM
+DCM_03: The first character of Số chứng chỉ cannot be a space.,GB-206,10205,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Truong Dinh An (K17 HCM),712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6,Truong Dinh An (K17 HCM),712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6,10/Jul/24 9:32 PM,10/Jul/24 9:32 PM,16/Jul/24 4:53 PM,10/Jul/24 9:32 PM,,0,"Test level: Unit
+
+Test step:
+
+* Log in with an administrator role account.
+* Select Diamond Certificate Management.
+* Fill out all forms and The first character of the Certificate Number is a space.
+* Press the button
+
+Expected Result: The first character of the Certificate Number cannot be a space.
+Actual Result: The first character of the Certificate Number cannot be a space.
+Test Result: Pass
+
+
+
+!Ảnh màn hình 2024-07-10 lúc 21.27.00-20240710-142716.png|width=868,height=245,alt=""Ảnh màn hình 2024-07-10 lúc 21.27.00-20240710-142716.png""!",,Truong Dinh An (K17 HCM),712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6,,,,,,,,,,,10/Jul/24 9:32 PM;712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6;Ảnh màn hình 2024-07-10 lúc 21.27.00-20240710-142716.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10102,,,,,,,,,GB-20,Diamond Certificate Management,,,,,,,0|i000xp:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_1349,10019,Diamond Certificate Management,Done,10/Jul/24 9:32 PM
+DCM_02: Số chứng chỉ cannot contain special characters except “-”.,GB-205,10204,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Truong Dinh An (K17 HCM),712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6,Truong Dinh An (K17 HCM),712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6,10/Jul/24 9:23 PM,10/Jul/24 9:32 PM,16/Jul/24 4:53 PM,10/Jul/24 9:32 PM,,0,"Test level: Unit
+
+Test step:
+
+* Log in with an administrator role account.
+* Select Diamond Certificate Management.
+* Fill out all forms and cannot contain special characters except “-”.
+* Press the button
+
+Expected Result: The certificate number cannot contain special characters except “-”.
+Actual Result: The certificate number cannot contain special characters except “-”.
+Test Result: Pass
+
+
+
+!Ảnh màn hình 2024-07-10 lúc 21.28.48-20240710-142905.png|width=858,height=252,alt=""Ảnh màn hình 2024-07-10 lúc 21.28.48-20240710-142905.png""!",,Truong Dinh An (K17 HCM),712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6,,,,,,,,,,,10/Jul/24 9:29 PM;712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6;Ảnh màn hình 2024-07-10 lúc 21.28.48-20240710-142905.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10101,,,,,,,,,GB-20,Diamond Certificate Management,,,,purple,,,0|i000xh:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_579631,10019,Diamond Certificate Management,Done,10/Jul/24 9:32 PM
+DCM_01: Số chứng chỉ is required.,GB-204,10203,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Truong Dinh An (K17 HCM),712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6,Truong Dinh An (K17 HCM),712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6,10/Jul/24 9:19 PM,10/Jul/24 9:32 PM,16/Jul/24 4:53 PM,10/Jul/24 9:32 PM,,0,"Test level: Unit
+
+Test step:
+
+* Log in with an administrator role account.
+* Select Diamond Certificate Management.
+* Fill out all forms.
+* Press the button
+
+Expected Result: Certificate Number is Required
+Actual Result: Certificate Number is Required
+Test Result: Pass
+
+
+
+
+
+!Ảnh màn hình 2024-07-10 lúc 21.27.00-20240710-142716.png|width=868,height=245,alt=""Ảnh màn hình 2024-07-10 lúc 21.27.00-20240710-142716.png""!",,Truong Dinh An (K17 HCM),712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6,,,,,,,,,,GB-20,10/Jul/24 9:28 PM;712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6;Ảnh màn hình 2024-07-10 lúc 21.27.00-20240710-142716.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10100,,,,,,,,,GB-20,Diamond Certificate Management,,,,,,,0|i000x9:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_227990,10019,Diamond Certificate Management,Done,10/Jul/24 9:32 PM
+DM24: The first character of Giá cannot be a space.,GB-200,10199,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,10/Jul/24 9:10 PM,11/Jul/24 9:28 AM,16/Jul/24 4:53 PM,11/Jul/24 9:28 AM,,0,"Test level: Unit
+Check steps: *enter first space
+click (Add diamond member)
+Expected result: receive message asking not to enter first spaceActual result: cannot enter spaces
+Testcase result:pass",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,11/Jul/24 9:22 AM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;Screenshot 2024-07-11 092233.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10132,,,,,,,,,GB-171,Diamond Management,,,,purple,,,0|i000wl:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_44297157,10170,Diamond Management,Done,11/Jul/24 9:28 AM
+DM23: Giá cannot contain characters.,GB-199,10198,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,10/Jul/24 9:09 PM,12/Jul/24 12:07 PM,16/Jul/24 4:53 PM,,,0,"Test level: Unit
+Check steps: *enter characters
+
+* click (Add diamond member)
+Expected result: receive message asking not to enter character
+Actual result: can enter characters
+Testcase result: fail",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,11/Jul/24 9:20 AM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;Screenshot 2024-07-11 092023.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10131,,,,,,,,,GB-171,Diamond Management,,,,purple,,,0|i000d8:zzzzzzzzzzzr1zy,,,Sprint 1,,,,,,,,,,,,10170,Diamond Management,To Do,11/Jul/24 9:21 AM
+DM22: Giá cannot contain special characters.,GB-198,10197,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,10/Jul/24 9:09 PM,11/Jul/24 9:28 AM,16/Jul/24 4:53 PM,11/Jul/24 9:28 AM,,0,"Test level: Unit
+Check steps: *enter special characters
+click (Add diamond member)
+Expected result: receive a message asking not to enter special characters
+Actual result: cannot enter special characters
+Testcase result: pass",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,11/Jul/24 9:19 AM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;Screenshot 2024-07-11 091300.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10130,,,,,,,,,GB-171,Diamond Management,,,,purple,,,0|i000w5:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_44328657,10170,Diamond Management,Done,11/Jul/24 9:28 AM
+DM21: Giá is required.,GB-197,10196,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,10/Jul/24 9:09 PM,11/Jul/24 9:28 AM,16/Jul/24 4:53 PM,11/Jul/24 9:28 AM,,0,"Test Level: Unit
+Test Steps: * Do not enter Giá
+
+* click (Thêm viên kim cương)
+Expected Result: import message requiring giá input
+Actual Result: import message requiring giá input
+Testcase Result: pass",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,11/Jul/24 9:16 AM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;Screenshot 2024-07-11 091300.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10129,,,,,,,,,GB-171,Diamond Management,,,,purple,,,0|i000vx:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_44330546,10170,Diamond Management,Done,11/Jul/24 9:28 AM
+DM20: The first characterof Chứng chỉ cannot be a space.,GB-196,10195,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,10/Jul/24 9:09 PM,11/Jul/24 9:27 AM,16/Jul/24 4:53 PM,11/Jul/24 9:27 AM,,0,"Test level: Unit
+Check steps: *enter first space
+click (Add diamond member)
+Expected result: receive message asking not to enter first spaceActual result: cannot enter spaces
+Testcase result:pass",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,11/Jul/24 9:14 AM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;Screenshot 2024-07-11 091300.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10128,,,,,,,,,GB-171,Diamond Management,,,,purple,,,0|i000vp:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_44335378,10170,Diamond Management,Done,11/Jul/24 9:27 AM
+DM19: Chứng chỉ is required.,GB-195,10194,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,10/Jul/24 9:08 PM,11/Jul/24 9:27 AM,16/Jul/24 4:53 PM,11/Jul/24 9:27 AM,,0,"Test Level: Unit
+Test Steps: * Do not enter độ tinh khiết
+
+* click (Thêm viên kim cương)
+Expected Result: import message requiring Chứng chỉ input
+Actual Result: import message requiring Chứng chỉ input
+Testcase Result: pass",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,11/Jul/24 9:13 AM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;Screenshot 2024-07-11 091300.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10127,,,,,,,,,GB-171,Diamond Management,,,,purple,,,0|i000vh:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_44341315,10170,Diamond Management,Done,11/Jul/24 9:27 AM
+DM18: Độ cắt is required.,GB-194,10193,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,10/Jul/24 9:08 PM,11/Jul/24 9:27 AM,16/Jul/24 4:53 PM,11/Jul/24 9:27 AM,,0,"Test level: Unit
+Check steps: *do ​​not enter độ cắt
+*click on (Add diamond member)
+Expected result: receive a message asking to enter độ cắt
+Actual result: received a message asking to enter độ cắt
+Testcase result: pass",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,11/Jul/24 9:10 AM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;Screenshot 2024-07-11 091016.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10126,,,,,,,,,GB-171,Diamond Management,,,,purple,,,0|i000v9:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_44344226,10170,Diamond Management,Done,11/Jul/24 9:27 AM
+DM17: The first character of Carat cannot be a space.,GB-193,10192,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,10/Jul/24 9:08 PM,11/Jul/24 9:26 AM,16/Jul/24 4:53 PM,11/Jul/24 9:26 AM,,0,"Test level: Unit
+Check steps: *enter first space
+
+* click (Add diamond member)
+Expected result: receive message asking not to enter first space
+Actual result: cannot enter spaces
+Testcase result:pass",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,11/Jul/24 9:07 AM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;Screenshot 2024-07-11 090729.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10125,,,,,,,,,GB-171,Diamond Management,,,,purple,,,0|i000v1:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_44283547,10170,Diamond Management,Done,11/Jul/24 9:26 AM
+DM16: Carat cannot contain characters.,GB-192,10191,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,10/Jul/24 9:08 PM,12/Jul/24 12:07 PM,16/Jul/24 4:53 PM,,,0,"Test level: Unit
+Check steps: *enter characters
+
+* click (Add diamond member)
+Expected result: receive message asking not to enter character
+Actual result: can enter characters
+Testcase result: fail",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,11/Jul/24 9:05 AM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;Screenshot 2024-07-11 090525.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10124,,,,,,,,,GB-171,Diamond Management,,,,purple,,,0|i000d8:zzzzzzzzzzzr1zx,,,Sprint 1,,,,,,,,,,,,10170,Diamond Management,To Do,10/Jul/24 9:08 PM
+DM15: Carat cannot contain special characters.,GB-191,10190,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,10/Jul/24 9:07 PM,11/Jul/24 9:26 AM,16/Jul/24 4:53 PM,11/Jul/24 9:26 AM,,0,"Test level: Unit
+Check steps: *enter special characters
+
+* click (Add diamond member)
+Expected result: receive a message asking not to enter special characters
+Actual result: cannot enter special characters
+Testcase result: pass",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,,GB-171,Diamond Management,,,,purple,,,0|i000ul:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_44306271,10170,Diamond Management,Done,11/Jul/24 9:26 AM
+UA24: Password is required,GB-190,10189,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,10/Jul/24 9:07 PM,16/Jul/24 2:06 PM,16/Jul/24 4:53 PM,10/Jul/24 9:12 PM,,0,,,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,,,,,,,,,,,,,,,,,,,,GB-159,User Authentication,,,,purple,,,0|i000ud:,,,Sprint 1,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_272594,10158,User Authentication,Done,10/Jul/24 9:12 PM
+DM14: Carat is required.,GB-189,10188,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,10/Jul/24 9:07 PM,11/Jul/24 9:26 AM,16/Jul/24 4:53 PM,11/Jul/24 9:26 AM,,0,"Test Level: Unit
+Test Steps: * Do not enter Carat
+
+* click (Add diamond)
+Expected Result: import message requiring Carat input
+Actual Result: import message requiring Carat input
+Testcase Result: pass",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,11/Jul/24 9:00 AM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;Screenshot 2024-07-11 090034.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10123,,,,,,,,,GB-171,Diamond Management,,,,purple,,,0|i000u5:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_44311279,10170,Diamond Management,Done,11/Jul/24 9:26 AM
+DM13: Độ tinh khiết is required.,GB-188,10187,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,10/Jul/24 9:07 PM,11/Jul/24 9:26 AM,16/Jul/24 4:53 PM,11/Jul/24 9:26 AM,,0,"*Test Level:* Unit
+
+*Test Steps:* * Do not enter độ tinh khiết
+
+* click (Thêm viên kim cương)
+
+*Expected Result:* import message requiring độ tinh khiết input
+
+*Actual Result:* import message requiring độ tinh khiết input
+
+*Testcase Result:* pass",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,10/Jul/24 9:36 PM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;Screenshot 2024-07-10 213620.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10106,,,,,,,,,GB-171,Diamond Management,,,,purple,,,0|i000tx:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_44313447,10170,Diamond Management,Done,11/Jul/24 9:26 AM
+DM12: The first character of Màu sắc cannot be a space.,GB-187,10186,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,10/Jul/24 9:07 PM,12/Jul/24 12:07 PM,16/Jul/24 4:53 PM,,,0,"Test level: Unit
+Check steps: * enter the first space
+
+* click (Add diamond member)
+Expected result: enter request message without first space
+Actual result: no notification received
+Testcase result: fail",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,10/Jul/24 9:34 PM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;Screenshot 2024-07-10 213426.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10103,,,,,,,,,GB-171,Diamond Management,,,,purple,,,0|i000d8:zzzzzzzzzzzr1zv,,,Sprint 1,,,,,,,,,,,,10170,Diamond Management,To Do,10/Jul/24 9:07 PM
+DM11: Màu sắc cannot contain numbers.,GB-186,10185,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,10/Jul/24 9:07 PM,12/Jul/24 12:07 PM,16/Jul/24 4:53 PM,,,0,"Test level: Unit
+Check steps: * enter number
+
+* click (Add diamond member)
+Expected result: enter a request message without entering a number
+Actual result: no notification received
+Testcase result: fail",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,10/Jul/24 9:28 PM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;Screenshot 2024-07-10 212742.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10099,,,,,,,,,GB-171,Diamond Management,,,,purple,,,0|i000d8:zzzzzzzzzzzr1zr,,,Sprint 1,,,,,,,,,,,,10170,Diamond Management,To Do,10/Jul/24 9:07 PM
+DM10: Màu sắc cannot contain special characters.,GB-185,10184,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,10/Jul/24 9:06 PM,12/Jul/24 12:07 PM,16/Jul/24 4:53 PM,,,0,"Test level: Unit
+Check steps: * enter special characters
+
+* click (Add diamond member)
+Expected result: enter a request message without entering special characters
+Actual result: no notification received
+Testcase result: fail",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,10/Jul/24 9:24 PM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;Screenshot 2024-07-10 212421.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10097,,,,,,,,,GB-171,Diamond Management,,,,purple,,,0|i000d8:zzzzzzzzzzzr1zi,,,Sprint 1,,,,,,,,,,,,10170,Diamond Management,To Do,10/Jul/24 9:06 PM
+DM09: Màu sắc is required.,GB-184,10183,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,10/Jul/24 9:05 PM,11/Jul/24 9:25 AM,16/Jul/24 4:53 PM,11/Jul/24 9:25 AM,,0,"Test Level: Unit
+Test Steps: * Do not enter Màu sắc
+
+* click (Thêm viên kim cương)
+Expected Result: import message requiring Màu sắc input
+Actual Result: import message requiring Màu sắc input
+Testcase Result: pass",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,10/Jul/24 9:22 PM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;Screenshot 2024-07-10 211307.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10096,,,,,,,,,GB-171,Diamond Management,,,,purple,,,0|i000t1:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_44390825,10170,Diamond Management,Done,11/Jul/24 9:25 AM
+DM08: The first character of Size cannot be a space.,GB-183,10182,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,10/Jul/24 9:05 PM,11/Jul/24 9:25 AM,16/Jul/24 4:53 PM,11/Jul/24 9:25 AM,,0,"Test level: Unit
+Check steps: * enter the first space
+
+* click (Add diamond member)
+Expected result: enter request message without first space
+Actual result: cannot enter first space
+Testcase result: pass",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,10/Jul/24 9:21 PM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;Screenshot 2024-07-10 211307.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10095,,,,,,,,,GB-171,Diamond Management,,,,purple,,,0|i000st:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_44399640,10170,Diamond Management,Done,11/Jul/24 9:25 AM
+DM07: Size cannot contain characters.,GB-182,10181,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,10/Jul/24 9:05 PM,12/Jul/24 12:07 PM,16/Jul/24 4:53 PM,,,0,"Test level: Unit
+Check steps: * enter characters
+
+* click (Add diamond member)
+Expected result: enter request message without entering characters
+Actual result: character entered
+Testcase result: fail",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,11/Jul/24 9:27 AM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;Screenshot 2024-07-11 092654.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10133,,,,,,,,,GB-171,Diamond Management,,,,purple,,,0|i000d8:zzzzzzzzzzzr1z,,,Sprint 1,,,,,,,,,,,,10170,Diamond Management,To Do,11/Jul/24 9:27 AM
+DM06: Size cannot contain special characters.,GB-181,10180,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,10/Jul/24 9:04 PM,11/Jul/24 9:25 AM,16/Jul/24 4:53 PM,11/Jul/24 9:25 AM,,0,"Test level: Unit
+Check steps: * enter special characters
+
+* click (Add diamond member)
+Expected result: enter a request message without entering special characters
+Actual result: cannot enter special characters
+Testcase result: pass
+* ",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,10/Jul/24 9:18 PM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;Screenshot 2024-07-10 211307.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10091,,,,,,,,,GB-171,Diamond Management,,,,purple,,,0|i000sd:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_44412620,10170,Diamond Management,Done,11/Jul/24 9:25 AM
+DM05: Size is required.,GB-180,10179,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,10/Jul/24 9:04 PM,11/Jul/24 9:24 AM,16/Jul/24 4:53 PM,11/Jul/24 9:24 AM,,0,"*Test Level:* Unit
+
+*Test Steps:* * Do not enter size
+
+* click (Thêm viên kim cương)
+
+*Expected Result:* import message requiring size input
+
+*Actual Result:* import message requiring size input
+
+*Testcase Result:* pass",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,10/Jul/24 9:13 PM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;Screenshot 2024-07-10 211307.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10090,,,,,,,,,GB-171,Diamond Management,,,,purple,,,0|i000s5:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_44415069,10170,Diamond Management,Done,11/Jul/24 9:24 AM
+DM04: The first character of Hình dáng cannot be a space.,GB-179,10178,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,10/Jul/24 9:03 PM,11/Jul/24 9:24 AM,16/Jul/24 4:53 PM,11/Jul/24 9:24 AM,,0,"*Test Level:* Unit
+
+*Test Steps:*
+
+*Expected Result:*
+
+*Actual Result:*
+
+*Testcase Result:* skip",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,10/Jul/24 9:12 PM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;Screenshot 2024-07-10 210142.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10089,,,,,,,,,GB-171,Diamond Management,,,,purple,,,0|i000rx:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_44477308,10170,Diamond Management,Done,11/Jul/24 9:24 AM
+DM03: Hình dáng cannot contain number.,GB-178,10177,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,10/Jul/24 9:03 PM,11/Jul/24 9:24 AM,16/Jul/24 4:53 PM,11/Jul/24 9:24 AM,,0,"*Test Level:* Unit
+
+*Test Steps:*
+
+*Expected Result:*
+
+*Actual Result:*
+
+*Testcase Result:* skip",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,10/Jul/24 9:11 PM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;Screenshot 2024-07-10 210142.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10088,,,,,,,,,GB-171,Diamond Management,,,,purple,,,0|i000rp:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_44499153,10170,Diamond Management,Done,11/Jul/24 9:24 AM
+DM02: Hình dáng cannot contain special characters,GB-177,10176,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,10/Jul/24 9:02 PM,11/Jul/24 9:24 AM,16/Jul/24 4:53 PM,11/Jul/24 9:24 AM,,0,"*Test Level:* Unit
+
+*Test Steps:*
+
+*Expected Result:*
+
+*Actual Result:*
+
+*Testcase Result:* skip",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,10/Jul/24 9:11 PM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;Screenshot 2024-07-10 210142.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10087,,,,,,,,,GB-171,Diamond Management,,,,purple,,,0|i000rh:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_44518922,10170,Diamond Management,Done,11/Jul/24 9:24 AM
+CO15_Mã giảm giá/voucher must be valid and not expired.,GB-176,10175,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,10/Jul/24 9:02 PM,12/Jul/24 12:07 PM,16/Jul/24 4:53 PM,,,0,,,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,,,,,,,,,,,,,,,,,,,,GB-30,Check out,,,,purple,,,0|i000d8:zzzzzzzzzzzr1y,,,Sprint 1,,,,,,,,,,,,10029,Check out,To Do,10/Jul/24 9:02 PM
+CO50-Verify Check Out-Mã giảm giá/voucher cannot contain special characters,GB-175,10174,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,10/Jul/24 9:01 PM,12/Jul/24 12:07 PM,16/Jul/24 4:53 PM,,,0,"Description: Enter the special character into Điện thoại field Don’t input in the Mã giảm giá/voucher field
+
+
+
+Test Steps:
+
+Enter the special character into Mã giảm giá/voucher field like <>,.!…
+
+Expected Result
+
+Message :Mã giảm giá/voucher chỉ được chứa số
+
+Actual Result 
+
+Not notification Mã giảm giá/voucher chỉ được chứa số
+
+
+
+Attachments
+
+
+
+!image-20240710-154834.png|width=646,height=671,alt=""image-20240710-154834.png""!
+
+
+
+
+
+Test Level: Unit
+
+Testcase Result: Fail",,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,,,,,,,,,,,10/Jul/24 10:49 PM;712020:22e45797-4683-4de2-8f58-0efd8a8122b0;image-20240710-154834.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10122,,,,,,,,,GB-30,Check out,,,,purple,,,0|i000d8:zzzzzzzzzzzr1x,,,Sprint 1,,,,,,,,,,,,10029,Check out,To Do,10/Jul/24 9:01 PM
+CO49-Verify Check Out-The first character of Địa chỉ cannot be a space.,GB-174,10173,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,10/Jul/24 9:01 PM,12/Jul/24 12:07 PM,16/Jul/24 4:53 PM,,,0,"Description:  When input space in the first the notification will appear, The first character of Điện thoại cannot be a space.
+
+
+
+Test Steps:
+
+Input the first character of Địa chi is space 
+
+
+
+Expected Result
+
+Message : Địa chỉ không được chứa khoảng trắng ở đầu
+
+Actual Result 
+
+Not notification about Địa chỉ không được chứa khoảng trắng ở đầu
+
+
+
+Attachments
+
+!image-20240710-154541.png|width=670,height=525,alt=""image-20240710-154541.png""!
+
+
+
+Test Level: Unit
+
+Testcase Result: Fail",,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,,,,,,,,,,,10/Jul/24 10:46 PM;712020:22e45797-4683-4de2-8f58-0efd8a8122b0;image-20240710-154541.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10121,,,,,,,,,GB-30,Check out,,,,purple,,,0|i000d8:zzzzzzzzzzzr1v,,,Sprint 1,,,,,,,,,,,,10029,Check out,To Do,10/Jul/24 9:01 PM
+CO48-Verify Check Out-Địa chỉ cannot contain special characters.,GB-173,10172,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,10/Jul/24 9:00 PM,12/Jul/24 12:07 PM,16/Jul/24 4:53 PM,,,0,"Description: Enter the special character into Điện thoại field Don’t input in the Địa chỉ field
+
+
+
+Test Steps:
+
+Enter the special character into Địa chỉ field like <>,.!…
+
+Expected Result
+
+Message :Địa chỉ chỉ được chứa số
+
+Actual Result 
+
+Not message anything 
+
+
+
+Attachments
+
+!image-20240710-154342.png|width=612,height=540,alt=""image-20240710-154342.png""!
+
+
+
+Test Level: Unit
+
+Testcase Result: Fail",,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,,,,,,,,,,,10/Jul/24 10:44 PM;712020:22e45797-4683-4de2-8f58-0efd8a8122b0;image-20240710-154342.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10120,,,,,,,,,GB-30,Check out,,,,purple,,,0|i000d8:zzzzzzzzzzzr1r,,,Sprint 1,,,,,,,,,,,,10029,Check out,To Do,10/Jul/24 9:00 PM
+DM01: Hình dáng is required.,GB-172,10171,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,10/Jul/24 8:53 PM,11/Jul/24 9:24 AM,16/Jul/24 4:53 PM,11/Jul/24 9:24 AM,,0,"*Test Level:* Unit
+
+*Test Steps:*
+
+*Expected Result:*
+
+*Actual Result:*
+
+*Testcase Result:* skip",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,10/Jul/24 9:02 PM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;Screenshot 2024-07-10 210142.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10085,,,,,,,,,GB-171,Diamond Management,,,,purple,,,0|i000qd:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_45075749,10170,Diamond Management,Done,11/Jul/24 9:24 AM
+Diamond Management,GB-171,10170,Epic,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,10/Jul/24 8:53 PM,10/Jul/24 9:10 PM,16/Jul/24 4:53 PM,,,0,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,ghx-label-7,,,Diamond Management,To Do,,purple,,,0|i000q5:,,,,,,,,,,,,,,,,,To Do,10/Jul/24 8:53 PM
+"UR1_Verify that the ""Họ"" field is required.",GB-170,10169,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,10/Jul/24 8:45 PM,12/Jul/24 3:34 PM,12/Jul/24 3:32 PM,,,0,"Test Level: Unit 
+Test Step:
+
+# Access the account creation form.
+# Leave the ""Họ"" field blank.
+# Attempt to save the form.
+
+
+Expected Results:
+
+# *Error Message:* ""Họ is required.""
+# The form is not saved.
+
+Actual Result:
+
+# *Error Message:* ""Họ is required."" is show 
+
+Test Result: Pass
+
+
+
+
+
+!z5626604582171_2eeb8423c835abc96832ef9c8ee1d396.jpg|width=1163,height=389,alt=""z5626604582171_2eeb8423c835abc96832ef9c8ee1d396.jpg""!
+
+
+
+
+",,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,12/Jul/24 3:34 PM;712020:b73ca5e4-b78d-471e-b56e-974efb463826;z5626604582171_2eeb8423c835abc96832ef9c8ee1d396.jpg;https://doannnm.atlassian.net/rest/api/3/attachment/content/10138,,,,,,,,,GB-166,User registration,,,,purple,,,0|i000d8:zzzzzzzzzzzr1i,,,Sprint 1,,,,,,,,,,,,10165,User registration,To Do,10/Jul/24 8:45 PM
+User registration,GB-166,10165,Epic,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,10/Jul/24 8:37 PM,12/Jul/24 2:41 PM,16/Jul/24 4:53 PM,,10/Oct/23 12:00 AM,0,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,,,,,,,,,ghx-label-7,,,User registration,To Do,,purple,,,0|i000pp:,,,,27/Sep/23 12:00 AM,,,,,,,,,,,,,To Do,10/Jul/24 8:37 PM
+User Authentication,GB-159,10158,Epic,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,28/Jun/24 3:56 PM,10/Jul/24 9:24 PM,16/Jul/24 4:53 PM,,12/Jul/24 12:00 AM,0,,,Nguyen Duc Tuyen (K17 HCM),712020:b73ca5e4-b78d-471e-b56e-974efb463826,,,,,,,,,,,,,,,,,,,ghx-label-7,,,ACCOUNT MANAGEMENT,To Do,,purple,,,0|i000o5:,,,,08/Jul/24 12:00 AM,,,,,,,,,,,,,To Do,28/Jun/24 3:56 PM
+PM-Dành cho field,GB-158,10157,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,25/Jun/24 4:23 PM,09/Jul/24 8:19 AM,16/Jul/24 4:53 PM,,,0,"Test step: Not input or choose in Dành cho field
+
+Expect result:
+
+Show massege ”Nhập Dành cho”
+
+Result:
+
+Show massege ”Nhập Dành cho”
+
+Test result: pass ",,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,,,,,,,,,,,25/Jun/24 4:41 PM;712020:6a49ee4d-8db9-499d-9192-cccc22082d31;Screenshot 2024-06-25 162609.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10079,,,,,,,,,GB-119,Product Manager,,,,,,,0|i000d8:zzzzzzzzzzzr01,,,Sprint 1,,,,,,,,,,,,10118,Product Manager,To Do,25/Jun/24 4:23 PM
+PM-Danh mục field,GB-157,10156,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,25/Jun/24 4:23 PM,09/Jul/24 8:47 AM,16/Jul/24 4:53 PM,,,0,"Test step: Not input or choose in Danh mục field
+
+Expect result:
+
+Show massege ”Nhập Danh mục ”
+
+Result:
+
+Show massege ”Nhập Danh mục”
+
+Test result: pass ",,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,,,,,,,,,,,25/Jun/24 4:39 PM;712020:6a49ee4d-8db9-499d-9192-cccc22082d31;Screenshot 2024-06-25 162609.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10078,,,,,,,,,GB-119,Product Manager,,,,,,,0|i000d8:zzzzzzzzzzzsi,,,Sprint 1,,,,,,,,,,,,10118,Product Manager,To Do,25/Jun/24 4:23 PM
+PM-Số lượng đá phụ,GB-156,10155,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,25/Jun/24 4:23 PM,09/Jul/24 8:46 AM,16/Jul/24 4:53 PM,,,0,"Test step: Not input or choose in Số lượng đá phụ field
+
+Expect result:
+
+Show massege ”Nhập Số lượng đá phụ”
+
+Result:
+
+Show massege ”Nhập Số lượng đá phụ”
+
+Test result: pass ",,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,,,,,,,,,,,25/Jun/24 4:39 PM;712020:6a49ee4d-8db9-499d-9192-cccc22082d31;Screenshot 2024-06-25 162609.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10077,,,,,,,,,GB-119,Product Manager,,,,,,,0|i000d8:zzzzzzzzzzzr02,,,Sprint 1,,,,,,,,,,,,10118,Product Manager,To Do,25/Jun/24 4:23 PM
+PM-Nặng,GB-155,10154,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,25/Jun/24 4:22 PM,09/Jul/24 8:46 AM,16/Jul/24 4:53 PM,,,0,"Test step: Not input or choose in Nặng field
+
+Expect result:
+
+Show massege ”Nhập Nặng”
+
+Result:
+
+Show massege ”Nhập Nặng”
+
+Test result: pass ",,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,,,,,,,,,,,25/Jun/24 4:36 PM;712020:6a49ee4d-8db9-499d-9192-cccc22082d31;Screenshot 2024-06-25 162609.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10076,,,,,,,,,GB-119,Product Manager,,,,,,,0|i000d8:zzzzzzzzzzzr04,,,Sprint 1,,,,,,,,,,,,10118,Product Manager,To Do,25/Jun/24 4:22 PM
+PM-Loại đá phụ field,GB-154,10153,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,25/Jun/24 4:22 PM,09/Jul/24 8:46 AM,16/Jul/24 4:53 PM,,,0,"Test step: Not input or choose in Loại đá phụ field
+
+Expect result:
+
+Show massege ”Nhập loại đá phụ”
+
+Result:
+
+Show massege ”Nhập loại đá phụ”
+
+Test result: pass ",,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,,,,,,,,,,,25/Jun/24 4:35 PM;712020:6a49ee4d-8db9-499d-9192-cccc22082d31;Screenshot 2024-06-25 162609.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10075,,,,,,,,,GB-119,Product Manager,,,,,,,0|i000d8:zzzzzzzzzzzr09,,,Sprint 1,,,,,,,,,,,,10118,Product Manager,To Do,25/Jun/24 4:22 PM
+PM-karat field,GB-153,10152,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,25/Jun/24 4:22 PM,09/Jul/24 8:46 AM,16/Jul/24 4:53 PM,,,0,"Test step: Not input or choose in karat field
+
+Expect result:
+
+Show massege ”Nhập karat”
+
+Result:
+
+Show massege ”Nhập karat”
+
+Test result: pass ",,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,,,,,,,,,,,25/Jun/24 4:33 PM;712020:6a49ee4d-8db9-499d-9192-cccc22082d31;Screenshot 2024-06-25 162609.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10074,,,,,,,,,GB-119,Product Manager,,,,,,,0|i000d8:zzzzzzzzzzzr0i,,,Sprint 1,,,,,,,,,,,,10118,Product Manager,To Do,25/Jun/24 4:22 PM
+PM-Mô tả field,GB-152,10151,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,25/Jun/24 4:21 PM,09/Jul/24 8:46 AM,16/Jul/24 4:53 PM,,,0,"Test step: Not input or choose in mô tả field
+
+Expect result:
+
+Show massege ”Nhập mô tả”
+
+Result:
+
+Show massege ”Nhập mô tả”
+
+Test result: pass ",,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,,,,,,,,,,,25/Jun/24 4:32 PM;712020:6a49ee4d-8db9-499d-9192-cccc22082d31;Screenshot 2024-06-25 162609.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10073,,,,,,,,,GB-119,Product Manager,,,,,,,0|i000d8:zzzzzzzzzzzr1,,,Sprint 1,,,,,,,,,,,,10118,Product Manager,To Do,25/Jun/24 4:21 PM
+PM-Nguồn gốc field,GB-151,10150,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,25/Jun/24 4:21 PM,09/Jul/24 8:46 AM,16/Jul/24 4:53 PM,,,0,"Test step: Not input or choose in Nguồn gốc field
+
+Expect result:
+
+Show massege ”Nhập Nguồn gốc”
+
+Result:
+
+Show massege ”Nhập Nguồn gốc”
+
+Test result: pass ",,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,,,,,,,,,,,25/Jun/24 4:31 PM;712020:6a49ee4d-8db9-499d-9192-cccc22082d31;Screenshot 2024-06-25 162609.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10072,,,,,,,,,GB-119,Product Manager,,,,,,,0|i000d8:zzzzzzzzzzzr2,,,Sprint 1,,,,,,,,,,,,10118,Product Manager,To Do,25/Jun/24 4:21 PM
+PM-Độ tinh khiết field,GB-150,10149,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,25/Jun/24 4:21 PM,09/Jul/24 8:46 AM,16/Jul/24 4:53 PM,,,0,"Test step: Not input or choose in Độ tinh khiết field
+
+Expect result:
+
+Show massege ”Nhập độ tinh khiết”
+
+Result:
+
+Show massege ”Nhập độ tinh khiết”
+
+Test result: pass ",,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,,,,,,,,,,,25/Jun/24 4:30 PM;712020:6a49ee4d-8db9-499d-9192-cccc22082d31;Screenshot 2024-06-25 162609.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10071,,,,,,,,,GB-119,Product Manager,,,,,,,0|i000d8:zzzzzzzzzzzr4,,,Sprint 1,,,,,,,,,,,,10118,Product Manager,To Do,25/Jun/24 4:21 PM
+PM- Carat flied,GB-149,10148,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,25/Jun/24 4:21 PM,09/Jul/24 8:47 AM,16/Jul/24 4:53 PM,,,0,"Test step: Not input or choose in Carat field
+
+Expect result:
+
+Show massege ”Nhập Carat”
+
+Result:
+
+Show massege ”Nhập Carat
+
+Test result: pass ",,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,,,,,,,,,,,25/Jun/24 4:30 PM;712020:6a49ee4d-8db9-499d-9192-cccc22082d31;Screenshot 2024-06-25 162609.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10070,,,,,,,,,GB-119,Product Manager,,,,,,,0|i000d8:zzzzzzzzzzzr9,,,Sprint 1,,,,,,,,,,,,10118,Product Manager,To Do,25/Jun/24 4:21 PM
+PM-Màu sắc,GB-148,10147,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,25/Jun/24 4:21 PM,09/Jul/24 8:47 AM,16/Jul/24 4:53 PM,,,0,"Test step: Not input or choose in màu sắc field
+
+Expect result:
+
+Show massege ”Nhập màu sắc”
+
+Result:
+
+Show massege ”Nhập màu sắc”
+
+Test result: pass ",,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,,,,,,,,,,,25/Jun/24 4:29 PM;712020:6a49ee4d-8db9-499d-9192-cccc22082d31;Screenshot 2024-06-25 162609.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10069,,,,,,,,,GB-119,Product Manager,,,,,,,0|i000d8:zzzzzzzzzzzri,,,Sprint 1,,,,,,,,,,,,10118,Product Manager,To Do,25/Jun/24 4:21 PM
+PM- Hình dáng,GB-147,10146,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,25/Jun/24 4:20 PM,09/Jul/24 8:47 AM,16/Jul/24 4:53 PM,,,0,"Test step: Not input or choose in Hình dáng field
+
+Expect result:
+
+Show massege ”Nhập hình dáng”
+
+Result:
+
+Show massege ”Nhập hình dáng”
+
+Test result: pass ",,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,,,,,,,,,,,25/Jun/24 4:28 PM;712020:6a49ee4d-8db9-499d-9192-cccc22082d31;image_2024-06-25_162803601.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10068,,,,,,,,,GB-119,Product Manager,,,,,,,0|i000d8:zzzzzzzzzzzs,,,Sprint 1,,,,,,,,,,,,10118,Product Manager,To Do,25/Jun/24 4:20 PM
+PM - Tên sản phẩm field,GB-146,10145,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,25/Jun/24 4:14 PM,09/Jul/24 8:47 AM,16/Jul/24 4:53 PM,,,0,"Test step: Not input or choose in Tên sản phẩm field
+
+Expect result:
+
+Show massege ”Nhập tên sản phẩm”
+
+Result:
+
+Show massege ”Nhập tên sản phẩm”
+
+Test result: pass 
+",,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,,,,,,,,,,,25/Jun/24 4:20 PM;712020:6a49ee4d-8db9-499d-9192-cccc22082d31;image_2024-06-25_161958576.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10066,,,,,,,,,GB-119,Product Manager,,,,,,,0|i000d8:zzzzzzzzzzzt,,,Sprint 1,,,,,,,,,,,,10118,Product Manager,To Do,25/Jun/24 4:14 PM
+PM -Tỷ lê áp giá field,GB-120,10119,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,24/Jun/24 9:27 PM,09/Jul/24 8:46 AM,16/Jul/24 4:53 PM,,,0,"Test step: Not input or choose in Tỷ lệ áp giá field
+
+Expect result:
+
+Show massege ”Nhập tỉ lệ áp giá”
+
+Result:
+
+Show massege ”Nhập tỉ lệ áp giá”
+
+Test result: pass 
+",,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,,,,,,,,,,,24/Jun/24 9:33 PM;712020:6a49ee4d-8db9-499d-9192-cccc22082d31;image_2024-06-24_213343685.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10046,,,,,,,,,GB-119,Product Manager,,,,,,,0|i000d8:zzzzzzzt,,,Sprint 1,,,,,,,,,,,,10118,Product Manager,To Do,24/Jun/24 9:27 PM
+Product Manager,GB-119,10118,Epic,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,24/Jun/24 9:07 PM,25/Jun/24 4:23 PM,16/Jul/24 4:53 PM,,,0,,,Le Quoc Thang (K18 DN),712020:6a49ee4d-8db9-499d-9192-cccc22082d31,,,,,,,,,,,,,,,,,,,ghx-label-7,,,Produc Manager,To Do,,purple,,,0|i000n9:,,,,,,,,,,,,,,,,,To Do,24/Jun/24 9:07 PM
+G04-The first character of Giá cannot be a space.,GB-116,10115,Sub-task,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,22/Jun/24 11:57 PM,09/Jul/24 10:26 AM,16/Jul/24 4:53 PM,,,0,"Test step:
+
+Enter The first character space
+
+Expect result:
+
+Show massege”Nhập giá kim cương”
+
+Result:
+
+Show massege”Nhập giá kim cương”
+
+Test result:pass 
+
+!https://lh7-us.googleusercontent.com/docsz/AD_4nXdMZACvN-9ppLmI94ptp_ENrwiFvxdYRqXa89tlT0-Bvm3MpMFniBuT3cbYbISKDK90cLuaEybehu36ld6qSofmjyYaZrhJXvEy5FXI2jNgxeOA8ygruMA5meeEjlF4SIqu-vMvfRvb35ZnWIqSuVZrmDZu?key=xivYq36F81xVBpCP8Z3iVA|width=1600,height=627!",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000d8:zzzzzzzz,,,Sprint 1,,,,,,,,,,,,10107,UC-Giá field,To Do,22/Jun/24 11:57 PM
+G03-Giá cannot contain characters,GB-115,10114,Sub-task,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,22/Jun/24 11:56 PM,09/Jul/24 10:26 AM,16/Jul/24 4:53 PM,,,0,"Test step:
+
+Enter characters
+
+Expect result:
+
+Show massege”Nhập giá kim cương”
+
+Result:
+
+Show massege”Nhập giá kim cương”
+
+Test result:pass 
+
+!https://lh7-us.googleusercontent.com/docsz/AD_4nXcpVvxsT6MIprbTzb-ZEaiOHaNGrFUAMZIBRRcwrizpwDy-b1PcBgrlLOlE5imCRHOmKGa1I0JtaZCt0DfRB46UET5LT4XKjPJi7R9DYWjJ45_m8t2sclikwQuBBeyxV3G7nT0ntrJsfMrONWkHIEXxBN9P?key=xivYq36F81xVBpCP8Z3iVA|width=1600,height=627!",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000d8:zzzzzzzy,,,Sprint 1,,,,,,,,,,,,10107,UC-Giá field,To Do,22/Jun/24 11:56 PM
+G02-Giá cannot contain special characters,GB-114,10113,Sub-task,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,22/Jun/24 11:56 PM,09/Jul/24 10:26 AM,16/Jul/24 4:53 PM,,,0,"Test step:
+
+enter special characters
+
+Expect result:
+
+Show massege”Nhập giá kim cương”
+
+Result:
+
+Show massege”Nhập giá kim cương”
+
+Test result:pass 
+
+!https://lh7-us.googleusercontent.com/docsz/AD_4nXcRG6cWodufijapEC1IIvKerZe60rvbwEwxndizoLFMR5od9qMZWeD_IpBRjmogAMgimT6MmIAKxwdPCtnKp-VKve8CzEYS8SZGgUtS8rRCBsCi0HBnDZiBeefzgqlF7PjWHdsdAJ67CLU7COBmcWYOxJv0?key=xivYq36F81xVBpCP8Z3iVA|width=1600,height=648!",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000d8:zzzzzzzx,,,Sprint 1,,,,,,,,,,,,10107,UC-Giá field,To Do,22/Jun/24 11:56 PM
+G01-Giá is required,GB-113,10112,Sub-task,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,22/Jun/24 11:56 PM,09/Jul/24 10:26 AM,16/Jul/24 4:53 PM,,,0,"Test step:
+
+Do not enter
+
+Expect result:
+
+Show massege”Nhập giá kim cương”
+
+Result:
+
+Show massege”Nhập giá kim cương”
+
+Test result:pass 
+
+!https://lh7-us.googleusercontent.com/docsz/AD_4nXcYVJ5_rTvSn1k0rEG9f5-1ltO_rtMoYNyK8deYhE7McXEm8Mdfv5OeymIuteplvF4K5UISaa4pFkDCEoGUor8bISeWgiRp_ZD4Ig52Z014vu2fhRFym8liM7YJQSARcpEkTnY3tw3JI4SKZ36AsB8iXYTq?key=xivYq36F81xVBpCP8Z3iVA|width=1600,height=612!",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000d8:zzzzzzzv,,,Sprint 1,,,,,,,,,,,,10107,UC-Giá field,To Do,22/Jun/24 11:56 PM
+NG01-The first character of Imagine URL cannot be a space.,GB-112,10111,Sub-task,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,22/Jun/24 11:51 PM,09/Jul/24 10:26 AM,16/Jul/24 4:53 PM,,,0,"Test step:
+
+Enter The first characterof of Imagine URL space
+
+Expect result:
+
+Show massege”Nhập nguồn gốc”
+
+Result:
+
+skip opion
+
+Test result:pass 
+
+!https://lh7-us.googleusercontent.com/docsz/AD_4nXeFgdNJnmb9Z4X2u4WgfnTmVM-8bPLzvGOk9AAAT0DwoDocdpS4x6EqAT4n7Fv9nSeK7vaYkOu0ZBTdFR3RRe6bS19dOV7vwKJonmW-_U5NBCW_IIBw3PzjgrhY8zI89WoRx0RpSH9Xz3hNPe9d-me5PwHZ?key=xivYq36F81xVBpCP8Z3iVA|width=1600,height=637!",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000d8:zzzzzzzi,,,Sprint 1,,,,,,,,,,,,10106,UC- Nguồn gốc field,To Do,22/Jun/24 11:51 PM
+CC02-The first characterof Chứng chỉ cannot be a space.,GB-111,10110,Sub-task,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,22/Jun/24 11:46 PM,09/Jul/24 10:26 AM,16/Jul/24 4:53 PM,,,0,"Test step:
+
+Enter The first characterof space
+
+Expect result:
+
+Show massege”Nhập số chứng chỉ”
+
+Result:
+
+Show massege”Nhập số chứng chỉ”
+
+Test result:pass 
+
+!https://lh7-us.googleusercontent.com/docsz/AD_4nXcPCM3D4eFKdkLD-N2XURALqUTrZFS5btFNdb9aOcT5VYEnYF62O9bAHch8M5JTFQg0Hs-d3tOOT0yDCkjP_ZfzognIHAmtz2FsUiI9OoxjfCwr4yQqsaw7vTfpa3djhH9QS5wksKJE2akCBPfRGiAW8dcH?key=xivYq36F81xVBpCP8Z3iVA|width=1600,height=631!",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000d8:zzzzzzy,,,Sprint 1,,,,,,,,,,,,10105,UC-Chứng chỉ field,To Do,22/Jun/24 11:46 PM
+CC01-Chứng chỉ is required,GB-110,10109,Sub-task,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,22/Jun/24 11:45 PM,09/Jul/24 10:25 AM,16/Jul/24 4:53 PM,,,0,"Test step:
+
+Do not enter
+
+Expect result:
+
+Show massege”Nhập số chứng chỉ”
+
+Result:
+
+Show massege”skip”
+
+Test result:pass 
+
+!https://lh7-us.googleusercontent.com/docsz/AD_4nXdrvDCrmZl_v8pLW9iharzsimv5WDQK7kZrHwdXe-rsj9GEruubyOG_yaHdOAVbCnVOxy8n764j-0WVFVgOoPM5e_JzJXfrnZgLvtF_lFlGeOXoQ4JbURtmxLsgUN9_tebj03q7uf98wJlvxjE0B0V4ZxYx?key=xivYq36F81xVBpCP8Z3iVA|width=1600,height=695!",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000d8:zzzzzzx,,,Sprint 1,,,,,,,,,,,,10105,UC-Chứng chỉ field,To Do,22/Jun/24 11:45 PM
+DC01-Độ cắt is required,GB-109,10108,Sub-task,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,22/Jun/24 11:40 PM,09/Jul/24 10:25 AM,16/Jul/24 4:53 PM,,,0,"Test step:
+
+Do not enter
+
+Expect result:
+
+Show massege”Nhập độ cắt”
+
+Result:
+
+skip becasue oppion
+
+Test result:pass 
+
+!https://lh7-us.googleusercontent.com/docsz/AD_4nXcKyyd3UXiYYbQ79M7qnEu7uU09V9fzuRiIGiWizUmxg_z4oVNEKCIN-oC-tJ77NQj1qkoAC9To8TeGrZ26AhsKqTYnKngrRWJJoujL19pa1NSHboCDPgty28VXXBzlJizWWj7GPc8ykFg2q4iYaBh_PIQ?key=xivYq36F81xVBpCP8Z3iVA|width=1600,height=708!",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000d8:zzzzzzr,,,Sprint 1,,,,,,,,,,,,10104,UC- Độ cắt fIeld,To Do,22/Jun/24 11:40 PM
+UC-Giá field,GB-108,10107,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,22/Jun/24 11:35 PM,09/Jul/24 8:46 AM,16/Jul/24 4:53 PM,,,0,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,,,,,,,purple,,,0|i000d8:zzzzzzzr,,,Sprint 1,,,,,,,,,,,,,,To Do,22/Jun/24 11:35 PM
+UC- Nguồn gốc field,GB-107,10106,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,22/Jun/24 11:34 PM,09/Jul/24 8:46 AM,16/Jul/24 4:53 PM,,,0,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,,,,,,,purple,,,0|i000d8:zzzzzzz,,,Sprint 1,,,,,,,,,,,,,,To Do,22/Jun/24 11:34 PM
+UC-Chứng chỉ field,GB-106,10105,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,22/Jun/24 11:32 PM,09/Jul/24 8:46 AM,16/Jul/24 4:53 PM,,,0,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,,,,,,,purple,,,0|i000d8:zzzzzzv,,,Sprint 1,,,,,,,,,,,,,,To Do,22/Jun/24 11:32 PM
+UC- Độ cắt fIeld,GB-105,10104,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,22/Jun/24 11:32 PM,09/Jul/24 8:45 AM,16/Jul/24 4:53 PM,,,0,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,,,,,,,purple,,,0|i000d8:zzzzzzi,,,Sprint 1,,,,,,,,,,,,,,To Do,22/Jun/24 11:32 PM
+C04-The first character of Carat cannot be a space.,GB-104,10103,Sub-task,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,22/Jun/24 11:25 PM,09/Jul/24 10:25 AM,16/Jul/24 4:53 PM,,,0,"Test step:
+
+Enter the first space
+
+Expect result:
+
+Show massege”Nhập numberr”
+
+Result:
+
+Show massege”skip”
+
+Test result:pass 
+
+!https://lh7-us.googleusercontent.com/docsz/AD_4nXcTLiC_YGvRhx5XkH_kGt5fZMIZfCc9IPxu2fRHhM1gOYBx9MvIGhj_V5tzz0uUDw4xDSw54QKacY07GxV2Q57FomonFwHIdB4yJsnFd3e9Pg_aaxazYMSg1hiLSUiVBLyePlXskzRNVg8F7O3Y9lSM1MPT?key=xivYq36F81xVBpCP8Z3iVA|width=1600,height=735!",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000d8:zzzzzz,,,Sprint 1,,,,,,,,,,,,10099,UC-Carat field,To Do,22/Jun/24 11:25 PM
+C03-Carat cannot contain characters.,GB-103,10102,Sub-task,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,22/Jun/24 11:25 PM,09/Jul/24 10:25 AM,16/Jul/24 4:53 PM,,,0,"Test step:
+
+Enter characters
+
+Expect result:
+
+Show massege”Nhập numberr”
+
+Result:
+
+Show massege”skip”
+
+Test result:pass 
+
+!https://lh7-us.googleusercontent.com/docsz/AD_4nXc3HZoUQaEgFQLSm_RsZ65buT0VcsKpYdhrUMrU870qxl288HQxPuUTw8ZijAFh_E7F0-_Bkd0cK5bIHpbdvJ6j5q8IIMXOVuturMHTu_IdYUVhHES2OQHraUDJOmAGPt-0773ae1TlPlzuhbV9dihqcvz1?key=xivYq36F81xVBpCP8Z3iVA|width=1600,height=635!",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000d8:zzzzzy,,,Sprint 1,,,,,,,,,,,,10099,UC-Carat field,To Do,22/Jun/24 11:25 PM
+C02-Carat cannot contain special characters.,GB-102,10101,Sub-task,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,22/Jun/24 11:25 PM,09/Jul/24 10:25 AM,16/Jul/24 4:53 PM,,,0,"Test step:
+
+Enter special chacracter
+
+Expect result:
+
+Show massege”Nhập number”
+
+Result:
+
+skip because oppion
+
+Test result:pass
+
+!https://lh7-us.googleusercontent.com/docsz/AD_4nXe9RlYkwvM4XKs5UA4riQPUOCR7r8psYnrO1012UsiaRNod32DdstrYXVowsfJaPlvmKlBs0aNnGs5x5hDOngZ7c0FAP7z4N-4hfxvomIejJ8uIG1qyKNjGuuFQZheahyex4s3aVTUamQwIUA_pFNZ7cNYy?key=xivYq36F81xVBpCP8Z3iVA|width=1600,height=691!",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000d8:zzzzzx,,,Sprint 1,,,,,,,,,,,,10099,UC-Carat field,To Do,22/Jun/24 11:25 PM
+C01-Carat is required.,GB-101,10100,Sub-task,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,22/Jun/24 11:25 PM,09/Jul/24 10:25 AM,16/Jul/24 4:53 PM,,,0,"Test step:
+
+DO NOT ENTER
+
+Expect result:
+
+Show massege”Nhập carat”
+
+Result:
+
+Show massege”Nhập carat”
+
+Test result:pass 
+
+!https://lh7-us.googleusercontent.com/docsz/AD_4nXfmwyv_2UQDG3O_gNF6VdlJCXFZ3tbULvatPuT8xOFx8F5Eg3JUvjuqhgDFzHtSIAjWyQiS9Cw-b7F_WKC4doeCSjA7MSdgYl4eAk_t1Cx-GTWjZXPlNoVkpA2BjQ14ivoq7msIReSMByjYpyFSlq2vSxNP?key=xivYq36F81xVBpCP8Z3iVA|width=1600,height=715!",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000d8:zzzzzv,,,Sprint 1,,,,,,,,,,,,10099,UC-Carat field,To Do,22/Jun/24 11:25 PM
+UC-Carat field,GB-100,10099,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,22/Jun/24 11:24 PM,09/Jul/24 8:45 AM,16/Jul/24 4:53 PM,,,0,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,,,,,,,purple,,,0|i000d8:zzzzzr,,,Sprint 1,,,,,,,,,,,,,,To Do,22/Jun/24 11:24 PM
+DTK01- Độ tinh khiết is required,GB-99,10098,Sub-task,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,22/Jun/24 10:13 PM,09/Jul/24 10:24 AM,16/Jul/24 4:53 PM,,,0,"Test step:
+
+DO NOT ENTER
+
+Expect result:
+
+Show massege”nhập độ tinh khiết”
+
+Result:
+
+Show massege”nhập độ tinh khiết”
+
+Test result:pass
+
+!https://lh7-us.googleusercontent.com/docsz/AD_4nXdb_-LQ0cIC1KviJVYUj8DTK_YSIAZyVX026at-eM6BaWBW7vPccuMqKotJprWRCGmPmGR--HpM_rTXVUSSURW_amQKy9cIfvbvu6Nelo4cFtn4WiNDp271nB-MAS4lIglAt__a9XL_D3tMODqNG6nqvpbq?key=Gtr8EtbLIIV_YD_ShnBwxw|width=1438,height=808!",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000d8:zzzzzi,,,Sprint 1,,,,,,,,,,,,10097,UC- Độ tinh khiết field,To Do,22/Jun/24 10:13 PM
+UC- Độ tinh khiết field,GB-98,10097,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,22/Jun/24 10:13 PM,09/Jul/24 8:45 AM,16/Jul/24 4:53 PM,,,0,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,,,,,,,purple,,,0|i000d8:zzzzz,,,Sprint 1,,,,,,,,,,,,,,To Do,22/Jun/24 10:13 PM
+MC04-The first character of Màu sắc cannot be a space.,GB-94,10093,Sub-task,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,22/Jun/24 10:00 PM,09/Jul/24 10:24 AM,16/Jul/24 4:53 PM,,,0,"Test step:
+
+Enter space first
+
+Expect result:
+
+Show massege”không nhập space first”
+
+Result:
+
+Test result:fail
+
+!https://lh7-us.googleusercontent.com/docsz/AD_4nXdb_-LQ0cIC1KviJVYUj8DTK_YSIAZyVX026at-eM6BaWBW7vPccuMqKotJprWRCGmPmGR--HpM_rTXVUSSURW_amQKy9cIfvbvu6Nelo4cFtn4WiNDp271nB-MAS4lIglAt__a9XL_D3tMODqNG6nqvpbq?key=Gtr8EtbLIIV_YD_ShnBwxw|width=1438,height=808!",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000d8:zzzzy,,,Sprint 1,,,,,,,,,,,,10087,UR1: Họ is required.,To Do,22/Jun/24 10:00 PM
+MC03-Màu sắc cannot contain numbers.,GB-93,10092,Sub-task,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,22/Jun/24 9:59 PM,09/Jul/24 10:24 AM,16/Jul/24 4:53 PM,,,0,"Test step:
+
+Enter  numbers
+
+Expect result:
+
+Show massege”không nhập number”
+
+Result:
+
+Test result: fail
+
+
+
+!image-20240622-150923.png|width=1011,height=483,alt=""image-20240622-150923.png""!",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,22/Jun/24 10:09 PM;712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f;image-20240622-150923.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10029,,,,,,,,,,,,,,,,,0|i000d8:zzzzx,,,Sprint 1,,,,,,,,,,,,10087,UR1: Họ is required.,To Do,22/Jun/24 9:59 PM
+MC02-Màu sắc cannot contain special characters.,GB-92,10091,Sub-task,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,22/Jun/24 9:59 PM,09/Jul/24 10:24 AM,16/Jul/24 4:53 PM,,,0,"Test step:
+
+Enter special characters
+
+Expect result:
+
+Show massege”không nhập kí tự đặt biệt”
+
+Result:
+
+Show massege”nhập màu sắc”
+
+Test result: fail
+
+!https://lh7-us.googleusercontent.com/docsz/AD_4nXeet2n-7ybvaQ92kM4uX2Ej3_ykrbuabxFRKGvun3EdYXNYCX5JeMiaRtTnmhepBc2gVbfrcGk8al2seV2qElr4jordoXAIHFG2QMVDUuXGX4smw5193YDdPUArS-3sclakd7rEbbQNZ1JrK5n8mOGJWms?key=Gtr8EtbLIIV_YD_ShnBwxw|width=1277,height=570!",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000d8:zzzzv,,,Sprint 1,,,,,,,,,,,,10087,UR1: Họ is required.,To Do,22/Jun/24 9:59 PM
+MC01-Màu sắc is required.,GB-91,10090,Sub-task,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,22/Jun/24 9:59 PM,09/Jul/24 10:24 AM,16/Jul/24 4:53 PM,,,0,"Test step:
+
+Do not enter
+
+Expect result:
+
+Show massege”nhập màu sắc”
+
+Result:
+
+Show massege”nhập màu sắc”
+
+Test result: pass
+
+!https://lh7-us.googleusercontent.com/docsz/AD_4nXe9qFIA9M6tqOUza_j2KFsjAUcJ0Czasa9lsa7W-IuvVooZAKwLH-eRlB03RGvhe1NbAOVaEzlS2p2D47_1UMxGWnwPoJbV6xCkEPAZ39XiAfnTyDGrMe2Oa08A8AMLpsNhgpck8Nm_gUGx0YnZ-4fZ12_w?key=Gtr8EtbLIIV_YD_ShnBwxw|width=1257,height=576!",,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000d8:zzzzr,,,Sprint 1,,,,,,,,,,,,10087,UR1: Họ is required.,To Do,22/Jun/24 9:59 PM
+UR1: Họ is required.,GB-88,10087,Testcase,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,22/Jun/24 9:54 PM,10/Jul/24 8:28 PM,16/Jul/24 4:53 PM,,,0,,,Vo Nhat Duy (K17 HCM),712020:2ca281c4-bf57-48d8-a24e-bc6803873b1f,,,,,,,,,,,,,,,,,,,,,,,,,purple,,,0|i000d8:zzzzi,,,Sprint 1,,,,,,,,,,,,,,To Do,22/Jun/24 9:54 PM
+CO47-Verify Check Out-Địa chỉ is required.,GB-86,10085,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,22/Jun/24 9:54 PM,10/Jul/24 10:40 PM,12/Jul/24 3:22 PM,28/Jun/24 3:35 PM,,0,"Description: Don’t input in the Họ tên field
+
+
+
+Test Steps:
+
+Empty the Họ Tên Field
+
+
+
+Expected Result
+
+Message : Địa chỉ là bắt buộc
+
+Actual Result 
+
+Message : Địa chỉ là bắt buộc
+
+
+
+Attachments
+
+!image-20240710-153857.png|width=646,height=488,alt=""image-20240710-153857.png""!
+
+
+
+Test Level: Unit
+
+Testcase Result: Pass",,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,,,,,,,,,,,10/Jul/24 10:40 PM;712020:22e45797-4683-4de2-8f58-0efd8a8122b0;image-20240710-153857.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10119,,,,,,,,,GB-30,Check out,,,,purple,,,0|i000d8:zzzx,,,Sprint 1,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_495695749,10029,Check out,Done,28/Jun/24 3:35 PM
+FP26-Email is required.,GB-84,10083,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,22/Jun/24 9:53 PM,16/Jul/24 2:05 PM,16/Jul/24 4:53 PM,22/Jun/24 10:00 PM,,0,"Test Level: Unit
+Test Steps: 
+
+* Click on the forgot password email box.
+* Type any characters and click in the surrounding blank area, click the send button.
+
+
+Expected Result: Notification will appear.
+Actual Result: Notification appeared.
+Testcase Result: Pass
+
+!image-20240710-141620.png|width=622,height=183,alt=""image-20240710-141620.png""!",,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,,,,,,,,,,,10/Jul/24 9:18 PM;712020:c457a470-3499-4b73-bbba-376326f96ad8;image-20240710-141620.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10092,,,,,,,,,GB-83,Forgot Password,,,,purple,,,0|i000k5:,,,Sprint 1,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_379480,10082,Forgot Password,Done,22/Jun/24 10:00 PM
+Forgot Password,GB-83,10082,Epic,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,22/Jun/24 9:53 PM,10/Jul/24 9:24 PM,16/Jul/24 4:53 PM,,12/Jul/24 12:00 AM,0,,,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,,,,,,,,,,,,,,,,,,,ghx-label-7,,,Forgot Passord,To Do,,purple,,,0|i000jx:,,,,08/Jul/24 12:00 AM,,,,,,,,,,,,,To Do,22/Jun/24 9:53 PM
+CO46-Verify Check Out-Ngày sinh is required.,GB-81,10080,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,22/Jun/24 9:52 PM,10/Jul/24 10:37 PM,16/Jul/24 4:53 PM,28/Jun/24 3:35 PM,,0,"Not field to test
+
+
+
+!image-20240710-153627.png|width=716,height=362,alt=""image-20240710-153627.png""!",,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,,,,,,,,,,,10/Jul/24 10:37 PM;712020:22e45797-4683-4de2-8f58-0efd8a8122b0;image-20240710-153627.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10118,,,,,,,,,GB-30,Check out,,,,purple,,,0|i000d8:zzzr,,,Sprint 1,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_495793502,10029,Check out,Done,28/Jun/24 3:35 PM
+CO45-Verify Check Out-The first character and the end of a character cannot contain “.” or “-” or “_”.,GB-79,10078,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,22/Jun/24 9:51 PM,10/Jul/24 9:28 PM,16/Jul/24 4:53 PM,28/Jun/24 3:35 PM,,0,"do not have field to check
+
+
+
+!image-20240622-152049.png|width=1158,height=740,alt=""image-20240622-152049.png""!",,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,,,,,,,,,,,22/Jun/24 10:21 PM;712020:22e45797-4683-4de2-8f58-0efd8a8122b0;image-20240622-152049.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10039,,,,,,,,,GB-30,Check out,,,,purple,,,0|i000d8:zzz,,,Sprint 1,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_495876305,10029,Check out,Done,28/Jun/24 3:35 PM
+CO44-Verify Check Out-Email is required.,GB-72,10071,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,22/Jun/24 9:48 PM,10/Jul/24 10:36 PM,16/Jul/24 4:53 PM,28/Jun/24 3:33 PM,,0,"Not field to test
+
+
+
+!image-20240710-153627.png|width=716,height=362,alt=""image-20240710-153627.png""!",,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,,,,,,,,,,,10/Jul/24 10:36 PM;712020:22e45797-4683-4de2-8f58-0efd8a8122b0;image-20240710-153627.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10117,,,,,,,,,GB-30,Check out,,,,purple,,,0|i000d8:zzr,,,Sprint 1,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_495921214,10029,Check out,Done,28/Jun/24 3:33 PM
+CO43-Verify Check Out-Điện thoại cannot contain characters.,GB-68,10067,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,22/Jun/24 9:46 PM,10/Jul/24 10:35 PM,16/Jul/24 4:53 PM,28/Jun/24 3:33 PM,,0,"Description:  When input any special charater the notification will appear, Điện thoại must not contain special character 
+
+
+
+Test Steps:
+
+Input the special character into Điện thoại field
+
+
+
+Expected Result
+
+Message :Điện thoại chỉ được chứa số
+
+Actual Result 
+
+Message :Điện thoại chỉ được chứa số
+
+
+
+Attachments
+
+
+
+!image-20240710-153513.png|width=651,height=316,alt=""image-20240710-153513.png""!
+
+
+
+Test Level: Unit
+
+Testcase Result: Pass",,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,,,,,,,,,,,10/Jul/24 10:35 PM;712020:22e45797-4683-4de2-8f58-0efd8a8122b0;image-20240710-153513.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10116,,,,,,,,,GB-30,Check out,,,,purple,,,0|i000d8:zi,,,Sprint 1,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_496014710,10029,Check out,Done,28/Jun/24 3:33 PM
+CO42-Verify Check Out-The first character of Điện thoại cannot be a space.,GB-66,10065,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,22/Jun/24 9:45 PM,10/Jul/24 9:28 PM,16/Jul/24 4:53 PM,28/Jun/24 3:33 PM,,0,,,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,,,,,,,,,,,,,,,,,,,,GB-30,Check out,,,,purple,,,0|i000d8:y,,,Sprint 1,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_496106991,10029,Check out,Done,28/Jun/24 3:33 PM
+UC_Forgot password,GB-63,10062,Story,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,22/Jun/24 9:43 PM,28/Jun/24 3:55 PM,16/Jul/24 4:53 PM,22/Jun/24 9:46 PM,,0,"Test case: Click on that link to go to a website.
+Expect result: Go to the forgot password page.
+Result: Go to the forgot password page.
+Test case: Pass
+
+
+
+!image-20240622-144632.png|width=1377,height=584,alt=""image-20240622-144632.png""!",,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,,,,,,,,,,,22/Jun/24 9:46 PM;712020:c457a470-3499-4b73-bbba-376326f96ad8;image-20240622-144632.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10022,,,,,,,,,,,,,,purple,,,0|i000fh:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_174693,,,Done,22/Jun/24 9:46 PM
+CO41-Verify Check Out-Điện thoại cannot contain special characters.,GB-62,10061,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,22/Jun/24 9:43 PM,10/Jul/24 10:27 PM,16/Jul/24 4:53 PM,28/Jun/24 3:36 PM,,0,"Description: Enter the special character into Điện thoại field Don’t input in the Điện thoại field
+
+
+
+Test Steps:
+
+Enter the special character into Điện thoại field like <>,.!…
+
+Expected Result
+
+Message :Điện thoại chỉ được chứa số
+
+Actual Result 
+
+Message :Điện thoại chỉ được chứa số
+
+
+
+Attachments
+
+
+
+!image-20240710-152654.png|width=634,height=458,alt=""image-20240710-152654.png""!
+
+
+
+Test Level: Unit
+
+Testcase Result: Pass",,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,,,,,,,,,,,10/Jul/24 10:27 PM;712020:22e45797-4683-4de2-8f58-0efd8a8122b0;image-20240710-152654.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10115,,,,,,,,,GB-30,Check out,,,,purple,,,0|i000d8:v,,,Sprint 1,,,,,,,,,,,3_*:*_1_*:*_2983_*|*_10004_*:*_2_*:*_152955_*|*_10003_*:*_1_*:*_496186103,10029,Check out,Done,28/Jun/24 3:36 PM
+CO40-Verify Check Out-Điện thoại is required.,GB-60,10059,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,22/Jun/24 9:42 PM,10/Jul/24 10:21 PM,16/Jul/24 4:53 PM,28/Jun/24 3:33 PM,,0,"Description:  Don’t input in the Điện thoại field
+
+
+
+Test Steps:
+
+Don’t input to Điện thoại field
+
+
+
+Expected Result
+
+Message :Điện thoại is required.
+
+Actual Result 
+
+Điện thoại is required.
+
+
+
+Attachments
+
+
+
+
+
+!image-20240710-152142.png|width=598,height=422,alt=""image-20240710-152142.png""!
+
+
+
+Test Level: Unit
+
+Testcase Result: Pass",,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,,,,,,,,,,,10/Jul/24 10:21 PM;712020:22e45797-4683-4de2-8f58-0efd8a8122b0;image-20240710-152142.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10114,,,,,,,,,GB-30,Check out,,,,purple,,,0|i000d8:i,,,Sprint 1,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_496224097,10029,Check out,Done,28/Jun/24 3:33 PM
+CO39-Verify Check Out-The first character of Họ tên cannot be a space.,GB-56,10055,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,22/Jun/24 9:41 PM,10/Jul/24 10:12 PM,16/Jul/24 4:53 PM,28/Jun/24 3:32 PM,,0,"Description:  When input space in the first the notification will appear, The first character of Họ tên cannot be a space.
+
+
+
+Test Steps:
+
+Input the first character of Họ tên is space 
+
+
+
+Expected Result
+
+Message :Họ tên không được chứa khoảng trắng ở đầu
+
+Actual Result 
+
+Not notification about Họ tên không được chứa khoảng trắng ở đầu
+
+
+
+Attachments
+
+
+
+!image-20240710-151239.png|width=649,height=220,alt=""image-20240710-151239.png""!
+
+
+
+Test Level: Unit
+
+Testcase Result: Pass",,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,,,,,,,,,,,10/Jul/24 10:12 PM;712020:22e45797-4683-4de2-8f58-0efd8a8122b0;image-20240710-151239.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10113,,,,,,,,,GB-30,Check out,,,,purple,,,0|i000d5:,,,Sprint 1,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_496310367,10029,Check out,Done,28/Jun/24 3:32 PM
+UC_Login with Google,GB-53,10052,Story,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,22/Jun/24 9:40 PM,28/Jun/24 3:55 PM,16/Jul/24 4:53 PM,22/Jun/24 9:43 PM,,0,"Test case : click a button into website
+Expect result: Show the message “Đăng nhập thành công”
+
+Result: Show the message “Đăng nhập thành công”
+Test result: Pass
+
+!image-20240622-144034.png|width=315,height=64,alt=""image-20240622-144034.png""!",,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,,,,,,,,,,,22/Jun/24 9:43 PM;712020:c457a470-3499-4b73-bbba-376326f96ad8;image-20240622-144034.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10019,,,,,,,,,,,,,,purple,,,0|i000d9:,,,,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_159073,,,Done,22/Jun/24 9:43 PM
+CO38-Verify Check Out-Họ tên cannot contain special character.,GB-47,10046,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,22/Jun/24 9:37 PM,10/Jul/24 10:06 PM,16/Jul/24 4:53 PM,28/Jun/24 3:32 PM,,0,"Description:  When input any special charater the notification will appear, Họ tên must not contain special character 
+
+
+
+Test Steps:
+
+Input the special character 
+
+
+
+Expected Result
+
+Message :Họ tên không được chứa ký tự đặc biệt, và khoảng trắng
+
+Actual Result 
+
+Message :Họ tên không được chứa ký tự đặc biệt, và khoảng trắng
+
+
+
+Attachments
+
+
+
+!image-20240710-150423.png|width=751,height=453,alt=""image-20240710-150423.png""!
+
+
+
+Test Level: Unit
+
+Testcase Result: Pass",,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,,,,,,,,,,,10/Jul/24 10:06 PM;712020:22e45797-4683-4de2-8f58-0efd8a8122b0;image-20240710-150423.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10112,,,,,,,,,GB-30,Check out,,,,purple,,,0|i000bx:,,,Sprint 1,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_496519129,10029,Check out,Done,28/Jun/24 3:32 PM
+CO37-Verify Check Out-Họ tên is required,GB-32,10031,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,22/Jun/24 9:26 PM,10/Jul/24 10:00 PM,16/Jul/24 4:53 PM,28/Jun/24 3:31 PM,,0,"Description: Don’t input in the Họ tên field
+
+
+
+Test Steps:
+
+Empty the Họ Tên Field
+
+
+
+Expected Result
+
+Message :Họ tên is required
+
+Actual Result 
+
+Message :Họ tên is required
+
+
+
+Attachments
+
+
+
+!image-20240710-144928.png|width=1503,height=399,alt=""image-20240710-144928.png""!
+
+Test Level: Unit
+
+Testcase Result: Pass",,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,,,,,,,,,,,10/Jul/24 9:56 PM;712020:22e45797-4683-4de2-8f58-0efd8a8122b0;image-20240710-144928.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10110,,,,,,,,,GB-30,Check out,,,,purple,,,0|i0009l:,,,Sprint 1,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_497155104,10029,Check out,Done,28/Jun/24 3:31 PM
+Check out,GB-30,10029,Epic,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,22/Jun/24 9:19 PM,10/Jul/24 9:02 PM,16/Jul/24 4:53 PM,,,0,,,Huỳnh Nhật,712020:22e45797-4683-4de2-8f58-0efd8a8122b0,,,,,,,,,,,,,,,,,,,ghx-label-7,,,Check out:,To Do,,purple,,,0|i0005b:,,,,,,,,,,,,,,,,,To Do,22/Jun/24 9:19 PM
+Diamond Certificate Management,GB-20,10019,Epic,To Do,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,,,,Truong Dinh An (K17 HCM),712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6,Truong Dinh An (K17 HCM),712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6,22/Jun/24 9:03 PM,10/Jul/24 9:37 PM,16/Jul/24 4:53 PM,,,0,,,Truong Dinh An (K17 HCM),712020:5ec3206f-5b67-4d3a-9bc6-085a14807ed6,,,,,,,,,GB-204,,,,,,,,,,ghx-label-7,,,Diamond Certificate Management,To Do,,purple,,,0|i0003j:,,,,,,,,,,,,,,,,,To Do,22/Jun/24 9:03 PM
+UA23-Email is required.,GB-1,10000,Testcase,Done,GB,N6_NJS1806_SWP.,software,Ngo Nguyen Minh Doan (K17 HCM),712020:3bc6ce36-b821-473c-8ed4-53b643d51207,,Medium,Done,,,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,22/Jun/24 4:27 PM,16/Jul/24 4:57 AM,16/Jul/24 4:53 PM,09/Jul/24 2:12 PM,,0,"Test Level: Unit
+Test Steps: 
+
+* Click on the Username box.
+* Type a space and type any character, click in the surrounding empty area and then click the Login button.
+
+Expected Result: Notification will appear.
+
+ Actual Result: Notification appeared.
+Test case result: Pass
+
+!image-20240710-135923.png|width=615,height=88,alt=""image-20240710-135923.png""!",,Nguyen Minh Hieu (K17 HCM),712020:c457a470-3499-4b73-bbba-376326f96ad8,,,,,,,,,,,10/Jul/24 9:07 PM;712020:c457a470-3499-4b73-bbba-376326f96ad8;image-20240710-135923.png;https://doannnm.atlassian.net/rest/api/3/attachment/content/10086,,,,,,,,ghx-label-7,GB-159,User Authentication,Login,To Do,,purple,,,0|hzzzzz:,,,Sprint 1,,,,,,,,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_1460659989,10158,User Authentication,Done,09/Jul/24 2:12 PM
